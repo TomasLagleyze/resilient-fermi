@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LAGLEYZE | Gerenciamiento y Dirección de Obras</title>
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Estudio de arquitectura LAGLEYZE. Especialistas en gerenciamiento, dirección de obras, proyecto y consultoría técnica. Aseguramos calidad, plazos y costos en tu construcción.">
+  <meta name="keywords" content="Arquitectura, Gerenciamiento de obras, Dirección de obras, Dirección de proyectos, Consultoría técnica, Construcción, LAGLEYZE">
+  <link rel="canonical" href="https://github.com/TomasLagleyze/resilient-fermi">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@200;300;400;600;700&family=Playfair+Display:ital,wght@1,400;1,500&display=swap" rel="stylesheet">
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Leaflet CSS for Maps -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+  <!-- Local CSS -->
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+  <!-- Cabecera / Navegación -->
+  <header id="main-header">
+    <div class="header-container">
+      <a href="#inicio" class="logo" id="logo-link">
+        <span class="char-grey">L</span><span class="char-orange">A</span><span class="char-grey">G</span><span class="char-grey">L</span><span class="char-grey">E</span><span class="char-grey">Y</span><span class="char-orange">Z</span><span class="char-grey">E</span>
+      </a>
+
+      <!-- Menú Desktop -->
+      <nav class="nav-desktop">
+        <a href="#inicio" class="nav-link active">INICIO</a>
+        <a href="#servicios" class="nav-link">SERVICIOS</a>
+        <a href="#nosotros" class="nav-link">NOSOTROS</a>
+        <a href="#obras" class="nav-link">OBRAS Y PROYECTOS</a>
+        <a href="#ubicacion" class="nav-link">UBICACION</a>
+        <a href="#contacto" class="nav-link">CONTACTO</a>
+      </nav>
+
+      <!-- Botón Hamburguesa Móvil -->
+      <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú de navegación">
+        <i data-lucide="menu" id="menu-icon"></i>
+      </button>
+    </div>
+
+    <!-- Menú Móvil Desplegable -->
+    <nav class="nav-mobile" id="nav-mobile">
+      <a href="#inicio" class="nav-mobile-link">INICIO</a>
+      <a href="#servicios" class="nav-mobile-link">SERVICIOS</a>
+      <a href="#nosotros" class="nav-mobile-link">NOSOTROS</a>
+      <a href="#obras" class="nav-mobile-link">OBRAS Y PROYECTOS</a>
+      <a href="#ubicacion" class="nav-mobile-link">UBICACION</a>
+      <a href="#contacto" class="nav-mobile-link">CONTACTO</a>
+    </nav>
+  </header>
+
+  <!-- Sección 1: Inicio (Hero con Video) -->
+  <section id="inicio" class="hero-section">
+    <div class="video-container">
+      <video class="hero-video" autoplay loop muted playsinline id="hero-video-element">
+        <!-- Usamos el video de Gardiner & Theobald como excelente referencia de calidad -->
+        <source src="https://servd-gt-website.b-cdn.net/production/uploads/GT_home.mp4" type="video/mp4">
+        Tu navegador no soporta videos HTML5.
+      </video>
+      <div class="video-overlay"></div>
+    </div>
+    
+    <div class="hero-content">
+      <h1 class="hero-title">
+        <span class="accent-line">GERENCIAMIENTO</span>
+        <span class="sub-accent">& DIRECCIÓN DE OBRAS</span>
+      </h1>
+      <p class="hero-subtitle">Optimizamos plazos, costos y calidad con el máximo rigor técnico en cada etapa de la construcción.</p>
+      <div class="hero-actions">
+        <a href="#obras" class="btn btn-primary">EXPLORAR PROYECTOS</a>
+        <a href="#contacto" class="btn btn-outline">CONTACTAR</a>
+      </div>
+    </div>
+
+    <div class="scroll-indicator">
+      <a href="#servicios" aria-label="Desplazarse hacia abajo">
+        <span class="scroll-text">DESCUBRIR</span>
+        <i data-lucide="chevron-down" class="scroll-icon"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- Sección 2: Servicios -->
+  <section id="servicios" class="section-padding light-bg">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">SERVICIOS PROFESIONALES</span>
+        <h2 class="section-title">Qué hacemos</h2>
+        <div class="title-underline"></div>
+      </div>
+
+      <div class="services-grid">
+        <!-- Servicio 1 -->
+        <div class="service-card">
+          <div class="service-icon-box">
+            <i data-lucide="layers" class="service-icon"></i>
+          </div>
+          <h3 class="service-title">Gerenciamiento de Obras</h3>
+          <p class="service-description">Coordinación integral del proyecto (Project Management). Control exhaustivo de costos, plazos de ejecución, licitaciones de contratistas y compras estratégicas para maximizar el valor del desarrollo.</p>
+          <ul class="service-list">
+            <li><i data-lucide="check" class="list-bullet"></i> Licitaciones y comparativas</li>
+            <li><i data-lucide="check" class="list-bullet"></i> Planificación financiera y Gantt</li>
+            <li><i data-lucide="check" class="list-bullet"></i> Gestión de contratos y riesgos</li>
+          </ul>
+        </div>
+
+        <!-- Servicio 2 -->
+        <div class="service-card">
+          <div class="service-icon-box">
+            <i data-lucide="shield-check" class="service-icon"></i>
+          </div>
+          <h3 class="service-title">Dirección de Obras</h3>
+          <p class="service-description">Supervisión técnica de obra (Construction Management) directamente en terreno. Garantizamos que la ejecución respete fielmente los planos, los estándares constructivos y las normas vigentes.</p>
+          <ul class="service-list">
+            <li><i data-lucide="check" class="list-bullet"></i> Control de calidad de ejecución</li>
+            <li><i data-lucide="check" class="list-bullet"></i> Coordinación de gremios y subcontratos</li>
+            <li><i data-lucide="check" class="list-bullet"></i> Recepciones de obra y certificaciones</li>
+          </ul>
+        </div>
+
+        <!-- Servicio 3 -->
+        <div class="service-card">
+          <div class="service-icon-box">
+            <i data-lucide="pen-tool" class="service-icon"></i>
+          </div>
+          <h3 class="service-title">Proyecto</h3>
+          <p class="service-description">Diseño y desarrollo de documentación ejecutiva de arquitectura. Generamos los planos constructivos detallados, pliegos de especificaciones técnicas y legajos necesarios para la correcta cotización y obra.</p>
+          <ul class="service-list">
+            <li><i data-lucide="check" class="list-bullet"></i> Anteproyecto y Layout funcional</li>
+            <li><i data-lucide="check" class="list-bullet"></i> Planos ejecutivos y de detalle</li>
+            <li><i data-lucide="check" class="list-bullet"></i> Pliegos de condiciones técnicas</li>
+          </ul>
+        </div>
+
+        <!-- Servicio 4 -->
+        <div class="service-card">
+          <div class="service-icon-box">
+            <i data-lucide="trending-up" class="service-icon"></i>
+          </div>
+          <h3 class="service-title">Consultoría</h3>
+          <p class="service-description">Auditorías e informes técnicos especializados. Evaluación de viabilidad de terrenos, diagnóstico de patologías constructivas, y peritajes para optimizar estructuras operativas y presupuestarias.</p>
+          <ul class="service-list">
+            <li><i data-lucide="check" class="list-bullet"></i> Diagnóstico de patologías de obra</li>
+            <li><i data-lucide="check" class="list-bullet"></i> Estimaciones de costos pre-proyecto</li>
+            <li><i data-lucide="check" class="list-bullet"></i> Informes de factibilidad técnica</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección 3: Nosotros -->
+  <section id="nosotros" class="section-padding dark-bg text-white relative overflow-hidden">
+    <div class="deco-circle"></div>
+    <div class="container relative z-10">
+      <div class="about-grid">
+        <div class="about-info">
+          <span class="section-tag text-orange">NUESTRA FILOSOFÍA</span>
+          <h2 class="section-title text-white">Compromiso técnico, ejecución impecable</h2>
+          <div class="title-underline bg-orange"></div>
+          <p class="about-text font-serif italic">"Entendemos que una obra exitosa no solo es aquella que se ve espectacular en los planos, sino la que se entrega a tiempo, dentro del presupuesto acordado y con un estándar de calidad incuestionable."</p>
+          <p class="about-paragraph">En **LAGLEYZE**, nos especializamos en hacer realidad proyectos complejos. Actuamos como el nexo técnico y estratégico de confianza para el cliente, coordinando a todos los actores intervinientes en el proceso constructivo con total transparencia y profesionalidad.</p>
+        </div>
+
+        <div class="about-metrics">
+          <div class="metric-card">
+            <span class="metric-number" data-target="25000">+15k</span>
+            <span class="metric-label">m² Gestionados</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-number" data-target="45">+30</span>
+            <span class="metric-label">Obras Dirigidas</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-number" data-target="15">+10</span>
+            <span class="metric-label">Años de Trayectoria</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-number" data-target="100">100%</span>
+            <span class="metric-label">Eficiencia de Control</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección 4: Obras y Proyectos -->
+  <section id="obras" class="section-padding light-bg">
+    <div class="container">
+      <div class="section-header flex-header">
+        <div>
+          <span class="section-tag">PORTAFOLIO</span>
+          <h2 class="section-title">Obras y proyectos destacados</h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <!-- Filtros -->
+        <div class="portfolio-filters" id="portfolio-filters">
+          <button class="filter-btn active" data-filter="all">TODOS</button>
+          <button class="filter-btn" data-filter="gerenciamiento">GERENCIAMIENTO</button>
+          <button class="filter-btn" data-filter="direccion">DIRECCIÓN</button>
+          <button class="filter-btn" data-filter="proyecto">PROYECTO</button>
+        </div>
+      </div>
+
+      <!-- Grid de Proyectos -->
+      <div class="portfolio-grid" id="portfolio-grid">
+        <!-- Proyecto 1 -->
+        <div class="project-item" data-category="gerenciamiento" data-project-id="1">
+          <div class="project-img-wrapper">
+            <img class="project-img" src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80" alt="Residencia Unifamiliar Moderna">
+            <div class="project-overlay">
+              <span class="project-category">GERENCIAMIENTO</span>
+              <h3 class="project-title">Residencia Al Río</h3>
+              <p class="project-summary">Gerenciamiento de costos y plazos de obra para vivienda premium en Nordelta.</p>
+              <span class="read-more">Ver detalles <i data-lucide="arrow-right" class="arrow-icon"></i></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Proyecto 2 -->
+        <div class="project-item" data-category="direccion" data-project-id="2">
+          <div class="project-img-wrapper">
+            <img class="project-img" src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80" alt="Edificio de Oficinas Corporativas">
+            <div class="project-overlay">
+              <span class="project-category">DIRECCIÓN DE OBRA</span>
+              <h3 class="project-title">Edificio Catalinas</h3>
+              <p class="project-summary">Dirección ejecutiva y control técnico para torre de oficinas triple A.</p>
+              <span class="read-more">Ver detalles <i data-lucide="arrow-right" class="arrow-icon"></i></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Proyecto 3 -->
+        <div class="project-item" data-category="proyecto" data-project-id="3">
+          <div class="project-img-wrapper">
+            <img class="project-img" src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80" alt="Vivienda Brutalista Hormigón">
+            <div class="project-overlay">
+              <span class="project-category">PROYECTO DE ARQUITECTURA</span>
+              <h3 class="project-title">Casa Bosque</h3>
+              <p class="project-summary">Diseño ejecutivo integral y pliegos de licitación de vivienda en bosque costero.</p>
+              <span class="read-more">Ver detalles <i data-lucide="arrow-right" class="arrow-icon"></i></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Proyecto 4 -->
+        <div class="project-item" data-category="gerenciamiento" data-project-id="4">
+          <div class="project-img-wrapper">
+            <img class="project-img" src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=800&q=80" alt="Complejo Residencial de Altura">
+            <div class="project-overlay">
+              <span class="project-category">GERENCIAMIENTO</span>
+              <h3 class="project-title">Complejo Las Piedras</h3>
+              <p class="project-summary">Project Management completo para desarrollo multifamiliar de 40 unidades.</p>
+              <span class="read-more">Ver detalles <i data-lucide="arrow-right" class="arrow-icon"></i></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Proyecto 5 -->
+        <div class="project-item" data-category="direccion" data-project-id="5">
+          <div class="project-img-wrapper">
+            <img class="project-img" src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80" alt="Local Comercial Premium">
+            <div class="project-overlay">
+              <span class="project-category">DIRECCIÓN DE OBRA</span>
+              <h3 class="project-title">Showroom Palermo</h3>
+              <p class="project-summary">Dirección de obra y coordinación de subcontratos comerciales de alta gama.</p>
+              <span class="read-more">Ver detalles <i data-lucide="arrow-right" class="arrow-icon"></i></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Proyecto 6 -->
+        <div class="project-item" data-category="proyecto" data-project-id="6">
+          <div class="project-img-wrapper">
+            <img class="project-img" src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=800&q=80" alt="Penthouse Moderno Interiorismo">
+            <div class="project-overlay">
+              <span class="project-category">PROYECTO DE ARQUITECTURA</span>
+              <h3 class="project-title">Penthouse Libertador</h3>
+              <p class="project-summary">Documentación ejecutiva y planos de detalle para refuncionalización y diseño interior.</p>
+              <span class="read-more">Ver detalles <i data-lucide="arrow-right" class="arrow-icon"></i></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección 5: Ubicación -->
+  <section id="ubicacion" class="section-padding white-bg">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">ZONA DE OPERACIÓN</span>
+        <h2 class="section-title">Ubicación y cobertura</h2>
+        <div class="title-underline"></div>
+      </div>
+
+      <div class="location-grid">
+        <div class="location-info">
+          <h3 class="location-subtitle">Presencia y alcance</h3>
+          <p class="location-text">Nuestra oficina central se encuentra en Buenos Aires. Coordinamos y dirigimos obras en todo el **Gran Buenos Aires (Norte, Sur y Oeste)**, la **Ciudad Autónoma de Buenos Aires** y desarrollos específicos en la **Costa Atlántica**.</p>
+          
+          <div class="contact-details-list">
+            <div class="contact-detail-item">
+              <i data-lucide="map-pin" class="contact-icon"></i>
+              <div>
+                <h4>Oficina Central</h4>
+                <p>Buenos Aires, Argentina</p>
+              </div>
+            </div>
+            <div class="contact-detail-item">
+              <i data-lucide="clock" class="contact-icon"></i>
+              <div>
+                <h4>Horarios de atención</h4>
+                <p>Lunes a Viernes de 09:00 a 18:00 hs</p>
+              </div>
+            </div>
+            <div class="contact-detail-item">
+              <i data-lucide="globe" class="contact-icon"></i>
+              <div>
+                <h4>Alcance de Servicios</h4>
+                <p>Consultorías y Gerenciamiento a nivel nacional</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contenedor del Mapa Leaflet -->
+        <div class="map-wrapper">
+          <div id="map-container" class="map-element"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección 6: Contacto -->
+  <section id="contacto" class="section-padding dark-bg text-white relative">
+    <div class="container">
+      <div class="contact-section-grid">
+        <!-- Info rápida de contacto -->
+        <div class="contact-info-block">
+          <span class="section-tag text-orange">PRESUPUESTOS Y CONSULTAS</span>
+          <h2 class="section-title text-white">¿Tenés un proyecto en mente?</h2>
+          <div class="title-underline bg-orange"></div>
+          <p class="contact-intro">Ponete en contacto con nosotros para coordinar una reunión técnica o solicitar un presupuesto de gerenciamiento, dirección o consultoría para tu próxima obra.</p>
+
+          <div class="direct-contact-channels">
+            <a href="mailto:tomas@lagleyze.com" class="channel-link">
+              <i data-lucide="mail" class="channel-icon"></i>
+              <span>tomas@lagleyze.com</span>
+            </a>
+            <a href="tel:+5491100000000" class="channel-link">
+              <i data-lucide="phone" class="channel-icon"></i>
+              <span>+54 9 11 0000-0000</span>
+            </a>
+            <a href="https://wa.me/5491100000000" target="_blank" class="channel-link highlight">
+              <i data-lucide="message-square" class="channel-icon text-orange"></i>
+              <span>Escribinos por WhatsApp</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Formulario -->
+        <div class="contact-form-block">
+          <form id="contact-form" class="modern-form">
+            <div class="form-group">
+              <label for="name" class="form-label">Nombre completo</label>
+              <input type="text" id="name" name="name" class="form-input" required placeholder="Ej. Juan Pérez">
+            </div>
+
+            <div class="form-group">
+              <label for="email" class="form-label">Correo electrónico</label>
+              <input type="email" id="email" name="email" class="form-input" required placeholder="Ej. juan@ejemplo.com">
+            </div>
+
+            <div class="form-group">
+              <label for="phone" class="form-label">Teléfono de contacto</label>
+              <input type="tel" id="phone" name="phone" class="form-input" placeholder="Ej. 11 1234-5678">
+            </div>
+
+            <div class="form-group">
+              <label for="service-select" class="form-label">Servicio de interés</label>
+              <select id="service-select" name="service" class="form-select">
+                <option value="gerenciamiento">Gerenciamiento de Obra</option>
+                <option value="direccion">Dirección de Obra</option>
+                <option value="proyecto">Proyecto de Arquitectura</option>
+                <option value="consultoria">Consultoría Técnica</option>
+                <option value="otro">Otro / Consulta general</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message" class="form-label">Mensaje o detalles del proyecto</label>
+              <textarea id="message" name="message" class="form-textarea" rows="4" required placeholder="Describí brevemente tu proyecto, ubicación y metros cuadrados estimados..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">ENVIAR CONSULTA</button>
+            <div id="form-status" class="form-status"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal inmersivo para detalles de proyectos (Obras) -->
+  <div class="project-modal" id="project-modal" aria-hidden="true" tabindex="-1" role="dialog">
+    <div class="modal-backdrop" id="modal-backdrop"></div>
+    <div class="modal-content-wrapper">
+      <button class="modal-close" id="modal-close" aria-label="Cerrar detalles del proyecto">
+        <i data-lucide="x"></i>
+      </button>
+      
+      <div class="modal-body" id="modal-body-content">
+        <!-- El contenido se cargará dinámicamente mediante JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#inicio" class="logo logo-footer">
+          <span class="char-grey">L</span><span class="char-orange">A</span><span class="char-grey">G</span><span class="char-grey">L</span><span class="char-grey">E</span><span class="char-grey">Y</span><span class="char-orange">Z</span><span class="char-grey">E</span>
+        </a>
+        <p class="footer-desc">Precisión en la gestión, excelencia en la ejecución.</p>
+      </div>
+      
+      <div class="footer-links">
+        <h4>Navegación</h4>
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#obras">Obras</a>
+        <a href="#ubicacion">Ubicación</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+
+      <div class="footer-social">
+        <h4>Seguinos</h4>
+        <div class="social-icons">
+          <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+          <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container flex-bottom">
+        <p>&copy; 2026 LAGLEYZE. Todos los derechos reservados.</p>
+        <p>Diseño e Ingeniería de Gestión</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Leaflet Map JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  
+  <!-- Local JS -->
+  <script src="/main.js" type="module"></script>
+</body>
+</html>

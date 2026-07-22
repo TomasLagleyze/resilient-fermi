@@ -1,0 +1,25 @@
+{
+  "name": "resilient-fermi",
+  "version": "1.0.0",
+  "description": "Sitio web profesional para el estudio de arquitectura de Tomás Lagleyze.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomasLagleyze/resilient-fermi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/TomasLagleyze/resilient-fermi/issues"
+  },
+  "homepage": "https://github.com/TomasLagleyze/resilient-fermi#readme",
+  "devDependencies": {
+    "vite": "^8.1.5"
+  }
+}
