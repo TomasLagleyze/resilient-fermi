@@ -406,13 +406,13 @@ document.addEventListener("DOMContentLoaded", () => {
     const mapContainer = document.getElementById("map-container");
     if (!mapContainer) return;
 
-    // Coordenadas aproximadas de Buenos Aires (Zona Palermo/Recoleta)
-    const latlng = [-34.5889, -58.4098];
+    // Coordenadas reales de la oficina: Franklin D. Roosevelt 1643, Belgrano, CABA
+    const latlng = [-34.5529249, -58.4533591];
     
     // Crear mapa y centrarlo
     const map = L.map('map-container', {
       center: latlng,
-      zoom: 12,
+      zoom: 15, // Zoom más cercano para mostrar la dirección exacta
       scrollWheelZoom: false, // Desactivar zoom al hacer scroll sobre el mapa
       zoomControl: true
     });
@@ -444,8 +444,8 @@ document.addEventListener("DOMContentLoaded", () => {
       .addTo(map)
       .bindPopup(`
         <div style="font-family: var(--font-sans); padding: 5px;">
-          <strong style="color: var(--color-black); text-transform: uppercase;">LAGLEYZE</strong><br>
-          <span style="color: var(--color-grey); font-size: 11px;">Zona de Cobertura Principal</span>
+          <strong style="color: var(--color-black); text-transform: uppercase;">Estudio LAGLEYZE</strong><br>
+          <span style="color: var(--color-grey); font-size: 11px;">Franklin D. Roosevelt 1643, Belgrano, CABA</span>
         </div>
       `);
   };
