@@ -1593,3 +1593,196 @@ img {
   }
 }
 
+/* ==========================================================================
+   SECCIÓN DE EQUIPO (NOSOTROS)
+   ========================================================================== */
+
+.team-section-wrapper {
+  margin-top: 6rem;
+  padding-top: 6rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.team-header {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.team-section-title {
+  font-size: 2.2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-white);
+}
+
+.team-header .title-underline {
+  margin: 1rem auto 0 auto;
+  background-color: var(--color-orange);
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+  margin-bottom: 5rem;
+}
+
+.team-member-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: var(--color-black-light);
+  padding: 3rem 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  transition: var(--transition-smooth);
+}
+
+.team-member-card:hover {
+  border-color: var(--color-orange);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.member-photo-wrapper {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  transition: var(--transition-smooth);
+  background-color: var(--color-black);
+}
+
+.team-member-card:hover .member-photo-wrapper {
+  border-color: var(--color-orange);
+}
+
+.member-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.member-name {
+  font-size: 1.35rem;
+  font-weight: 400;
+  color: var(--color-white);
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.member-title {
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--color-orange);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 1.5rem;
+  display: block;
+  line-height: 1.4;
+  height: 2.8rem; /* Reserva espacio para 2 líneas y mantiene alineación */
+}
+
+.member-desc {
+  font-size: 0.85rem;
+  color: var(--color-grey-light);
+  line-height: 1.6;
+}
+
+/* Contenedor de la foto grupal grande */
+.team-group-photo-wrapper {
+  width: 100%;
+  aspect-ratio: 21/9; /* Formato panorámico premium */
+  overflow: hidden;
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  margin-top: 3rem;
+}
+
+.team-group-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: var(--transition-smooth);
+}
+
+.team-group-photo-wrapper:hover .team-group-photo {
+  transform: scale(1.02);
+}
+
+.group-photo-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 2.5rem;
+  background: linear-gradient(0deg, rgba(17, 17, 17, 0.95) 0%, rgba(17, 17, 17, 0.5) 60%, rgba(17, 17, 17, 0) 100%);
+  display: flex;
+  justify-content: center;
+}
+
+.group-photo-caption {
+  font-size: 1rem;
+  color: var(--color-white);
+  letter-spacing: 0.05em;
+  margin: 0;
+}
+
+/* Responsividad para la Sección de Equipo */
+@media (max-width: 1024px) {
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  
+  /* Hacemos que el tercer miembro tome el ancho completo en tablet */
+  .team-grid .team-member-card:nth-child(3) {
+    grid-column: span 2;
+    max-width: 50%;
+    margin: 0 auto;
+  }
+  
+  .team-group-photo-wrapper {
+    aspect-ratio: 16/9;
+  }
+}
+
+@media (max-width: 768px) {
+  .team-section-wrapper {
+    margin-top: 4rem;
+    padding-top: 4rem;
+  }
+
+  .team-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .team-grid .team-member-card:nth-child(3) {
+    grid-column: span 1;
+    max-width: 100%;
+  }
+
+  .member-title {
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+  .team-group-photo-wrapper {
+    aspect-ratio: 4/3;
+  }
+  
+  .group-photo-overlay {
+    padding: 1.5rem;
+  }
+  
+  .group-photo-caption {
+    font-size: 0.85rem;
+  }
+}
+
+
