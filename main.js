@@ -7,7 +7,11 @@ const projectsData = {
   1: {
     title: "Residencia Al Río",
     category: "Gerenciamiento de Obra",
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80"
+    ],
     location: "Nordelta, Buenos Aires",
     area: "650 m²",
     year: "2024",
@@ -17,7 +21,11 @@ const projectsData = {
   2: {
     title: "Edificio Catalinas",
     category: "Dirección de Obra",
-    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1200&q=80"
+    ],
     location: "Retiro, CABA",
     area: "8.200 m²",
     year: "2023",
@@ -27,7 +35,11 @@ const projectsData = {
   3: {
     title: "Casa Bosque",
     category: "Proyecto de Arquitectura",
-    image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80"
+    ],
     location: "Cariló, Costa Atlántica",
     area: "320 m²",
     year: "2024",
@@ -37,7 +49,11 @@ const projectsData = {
   4: {
     title: "Complejo Las Piedras",
     category: "Gerenciamiento de Obra",
-    image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=1200&q=80"
+    ],
     location: "Tigre, Buenos Aires",
     area: "4.500 m²",
     year: "2022",
@@ -47,7 +63,11 @@ const projectsData = {
   5: {
     title: "Showroom Palermo",
     category: "Dirección de Obra",
-    image: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=1200&q=80"
+    ],
     location: "Palermo Hollywood, CABA",
     area: "480 m²",
     year: "2023",
@@ -57,7 +77,11 @@ const projectsData = {
   6: {
     title: "Penthouse Libertador",
     category: "Proyecto de Arquitectura",
-    image: "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=1200&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1502005229762-fc1b2b812ca5?auto=format&fit=crop&w=1200&q=80"
+    ],
     location: "Belgrano, CABA",
     area: "210 m²",
     year: "2025",
@@ -229,9 +253,45 @@ document.addEventListener("DOMContentLoaded", () => {
     const project = projectsData[projectId];
     if (!project) return;
 
-    // Crear la estructura de la ficha técnica
+    let currentSlide = 0;
+    const totalSlides = project.images.length;
+
+    // Generar HTML de las imágenes del carrusel
+    let slidesHtml = '';
+    let dotsHtml = '';
+    project.images.forEach((imgUrl, idx) => {
+      slidesHtml += `
+        <div class="carousel-slide ${idx === 0 ? 'active' : ''}" data-index="${idx}">
+          <img src="${imgUrl}" alt="${project.title} - Imagen ${idx + 1}" class="carousel-img">
+        </div>
+      `;
+      dotsHtml += `
+        <span class="carousel-dot ${idx === 0 ? 'active' : ''}" data-index="${idx}"></span>
+      `;
+    });
+
+    // Crear la estructura de la ficha técnica con el carrusel
     modalBodyContent.innerHTML = `
-      <img class="modal-hero-img" src="${project.image}" alt="${project.title}">
+      <div class="modal-carousel-container">
+        <div class="modal-carousel" id="modal-carousel">
+          <div class="carousel-slides-wrapper">
+            ${slidesHtml}
+          </div>
+          
+          ${totalSlides > 1 ? `
+            <button class="carousel-btn prev" id="carousel-prev" aria-label="Imagen anterior">
+              <i data-lucide="chevron-left"></i>
+            </button>
+            <button class="carousel-btn next" id="carousel-next" aria-label="Siguiente imagen">
+              <i data-lucide="chevron-right"></i>
+            </button>
+            <div class="carousel-dots-container">
+              ${dotsHtml}
+            </div>
+          ` : ''}
+        </div>
+      </div>
+      
       <div class="modal-info-section">
         <span class="modal-project-category">${project.category}</span>
         <h3 class="modal-project-title">${project.title}</h3>
@@ -259,6 +319,55 @@ document.addEventListener("DOMContentLoaded", () => {
         <p class="modal-description-text">${project.description}</p>
       </div>
     `;
+
+    lucide.createIcons(); // Crear iconos de las flechas del carrusel
+
+    // Lógica del carrusel
+    if (totalSlides > 1) {
+      const slides = modalBodyContent.querySelectorAll('.carousel-slide');
+      const dots = modalBodyContent.querySelectorAll('.carousel-dot');
+      const prevBtn = modalBodyContent.querySelector('#carousel-prev');
+      const nextBtn = modalBodyContent.querySelector('#carousel-next');
+
+      const goToSlide = (slideIndex) => {
+        // Envolver índices
+        if (slideIndex < 0) {
+          currentSlide = totalSlides - 1;
+        } else if (slideIndex >= totalSlides) {
+          currentSlide = 0;
+        } else {
+          currentSlide = slideIndex;
+        }
+
+        // Actualizar clases de slides
+        slides.forEach((slide, idx) => {
+          if (idx === currentSlide) {
+            slide.classList.add('active');
+          } else {
+            slide.classList.remove('active');
+          }
+        });
+
+        // Actualizar clases de dots
+        dots.forEach((dot, idx) => {
+          if (idx === currentSlide) {
+            dot.classList.add('active');
+          } else {
+            dot.classList.remove('active');
+          }
+        });
+      };
+
+      prevBtn.addEventListener('click', () => goToSlide(currentSlide - 1));
+      nextBtn.addEventListener('click', () => goToSlide(currentSlide + 1));
+      
+      dots.forEach(dot => {
+        dot.addEventListener('click', () => {
+          const idx = parseInt(dot.getAttribute('data-index'));
+          goToSlide(idx);
+        });
+      });
+    }
 
     modal.classList.add("open");
     modal.setAttribute("aria-hidden", "false");
