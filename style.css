@@ -1394,3 +1394,200 @@ img {
     padding: 2rem;
   }
 }
+
+/* ==========================================================================
+   BARRA DE FILOSOFÍA (SERVICIOS)
+   ========================================================================== */
+
+.philosophy-wrapper {
+  margin-top: 7rem;
+  width: 100%;
+}
+
+.philosophy-header-mini {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.philosophy-section-title {
+  font-size: 1.8rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-black);
+}
+
+.philosophy-bar {
+  background-color: var(--color-grey); /* Gris corporativo del estudio */
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  padding: 3rem 1.5rem;
+  position: relative;
+}
+
+.philosophy-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: var(--color-white);
+  cursor: pointer;
+  position: relative;
+  padding: 1rem 1.5rem;
+  transition: var(--transition-smooth);
+}
+
+.philosophy-icon-box {
+  margin-bottom: 1.2rem;
+  color: var(--color-white);
+  transition: var(--transition-smooth);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.philosophy-icon-box i {
+  width: 48px;
+  height: 48px;
+  stroke-width: 1.25px;
+}
+
+.philosophy-name {
+  font-family: var(--font-logo);
+  font-size: 0.95rem;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  line-height: 1.4;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.philosophy-divider {
+  width: 1px;
+  background-color: rgba(255, 255, 255, 0.2);
+  align-self: stretch;
+  margin: 0.5rem 0;
+}
+
+.philosophy-item:hover {
+  transform: translateY(-5px);
+}
+
+.philosophy-item:hover .philosophy-icon-box {
+  color: var(--color-orange);
+  transform: scale(1.1);
+}
+
+/* Tooltip Premium para Filosofía */
+.philosophy-tooltip {
+  position: absolute;
+  bottom: 105%;
+  left: 50%;
+  transform: translateX(-50%) translateY(10px);
+  width: 290px;
+  background-color: rgba(17, 17, 17, 0.96);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(232, 119, 34, 0.35);
+  padding: 1.5rem;
+  color: var(--color-white);
+  text-align: left;
+  opacity: 0;
+  visibility: hidden;
+  transition: var(--transition-smooth);
+  box-shadow: var(--shadow-lg);
+  z-index: 100;
+}
+
+/* Triángulo del tooltip */
+.philosophy-tooltip::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 8px;
+  border-style: solid;
+  border-color: rgba(17, 17, 17, 0.96) transparent transparent transparent;
+}
+
+.philosophy-item:hover .philosophy-tooltip {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+}
+
+.philosophy-tooltip strong {
+  display: block;
+  font-family: var(--font-logo);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-orange);
+  text-transform: uppercase;
+  margin-bottom: 0.6rem;
+  letter-spacing: 0.05em;
+}
+
+.philosophy-tooltip p {
+  font-size: 0.85rem;
+  color: var(--color-grey-light);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Adaptación Responsiva de la Filosofía */
+@media (max-width: 1024px) {
+  .philosophy-bar {
+    flex-wrap: wrap;
+    padding: 2.5rem 1rem;
+    gap: 1.5rem 0;
+  }
+  
+  .philosophy-item {
+    flex: 0 0 48%;
+  }
+  
+  .philosophy-divider {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .philosophy-bar {
+    flex-direction: column;
+    padding: 2rem 1rem;
+    gap: 2.5rem 0;
+  }
+
+  .philosophy-item {
+    flex: 0 0 100%;
+    padding: 0.5rem;
+  }
+
+  .philosophy-tooltip {
+    position: static;
+    transform: none !important;
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+    margin-top: 1rem;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: none;
+    padding: 1.2rem;
+  }
+
+  .philosophy-tooltip::after {
+    display: none;
+  }
+
+  .philosophy-item:hover .philosophy-tooltip {
+    transform: none !important;
+  }
+
+  .philosophy-item:hover {
+    transform: none;
+  }
+}
+
