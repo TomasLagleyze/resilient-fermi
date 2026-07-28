@@ -891,6 +891,41 @@ img {
   z-index: 10;
 }
 
+.map-redirect-btn {
+  position: absolute;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 1000;
+  background-color: var(--color-white);
+  color: var(--color-black) !important;
+  padding: 0.7rem 1.2rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-radius: 4px;
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-md);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  transition: var(--transition-fast);
+}
+
+.map-redirect-btn:hover {
+  background-color: var(--color-orange);
+  color: var(--color-white) !important;
+  border-color: var(--color-orange);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.map-redirect-btn i {
+  width: 14px;
+  height: 14px;
+}
+
 /* Personalización del Mapa Leaflet (Filtro Oscuro) */
 .leaflet-container {
   background: var(--color-light-bg) !important;

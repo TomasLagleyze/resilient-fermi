@@ -417,8 +417,8 @@ document.addEventListener("DOMContentLoaded", () => {
       zoomControl: true
     });
 
-    // Cargar capa de mapa de estilo oscuro minimalista (CartoDB Dark Matter)
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+    // Cargar capa de mapa de estilo claro minimalista (CartoDB Positron)
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
       subdomains: 'abcd',
       maxZoom: 20
@@ -439,15 +439,34 @@ document.addEventListener("DOMContentLoaded", () => {
       iconAnchor: [8, 8]
     });
 
-    // Agregar marcador al mapa
-    L.marker(latlng, { icon: orangeIcon })
+    // Agregar marcador al mapa y configurar popup con redirección
+    const marker = L.marker(latlng, { icon: orangeIcon })
       .addTo(map)
       .bindPopup(`
-        <div style="font-family: var(--font-sans); padding: 5px;">
-          <strong style="color: var(--color-black); text-transform: uppercase;">Estudio LAGLEYZE</strong><br>
-          <span style="color: var(--color-grey); font-size: 11px;">Franklin D. Roosevelt 1643, Belgrano, CABA</span>
+        <div style="font-family: var(--font-sans); padding: 5px; text-align: center;">
+          <strong style="color: var(--color-black); text-transform: uppercase; font-size: 13px; display: block; margin-bottom: 2px;">Estudio LAGLEYZE</strong>
+          <span style="color: var(--color-grey); font-size: 11px; display: block; margin-bottom: 8px;">Franklin D. Roosevelt 1643, Belgrano, CABA</span>
+          <a href="https://maps.app.goo.gl/unajrTta2tf7A36t5" target="_blank" style="
+            display: inline-block;
+            background-color: var(--color-orange);
+            color: var(--color-white) !important;
+            padding: 6px 12px;
+            font-size: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 2px;
+            box-shadow: 0 2px 5px rgba(232, 119, 34, 0.2);
+            transition: all 0.2s ease;
+          " onmouseover="this.style.backgroundColor='#d4681b'" onmouseout="this.style.backgroundColor='var(--color-orange)'">
+            Ver en Google Maps
+          </a>
         </div>
       `);
+      
+    // Abrir popup automáticamente
+    marker.openPopup();
   };
 
   // Llamar inicialización del mapa
