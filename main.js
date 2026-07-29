@@ -27,7 +27,8 @@ const projectsData = {
       "./algodon_2.jpg",
       "./algodon_3.jpg",
       "./algodon_4.jpg",
-      "./algodon_5.jpg"
+      "./algodon_5.jpg",
+      "./algodon_6.jpg"
     ],
     location: "Recoleta, CABA",
     area: "2.100 m²",
