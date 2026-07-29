@@ -38,6 +38,7 @@
         <a href="#servicios" class="nav-link">SERVICIOS</a>
         <a href="#nosotros" class="nav-link">NOSOTROS</a>
         <a href="#obras" class="nav-link">OBRAS Y PROYECTOS</a>
+        <a href="#clientes" class="nav-link">CLIENTES</a>
         <a href="#ubicacion" class="nav-link">UBICACION</a>
         <a href="#contacto" class="nav-link">CONTACTO</a>
       </nav>
@@ -54,6 +55,7 @@
       <a href="#servicios" class="nav-mobile-link">SERVICIOS</a>
       <a href="#nosotros" class="nav-mobile-link">NOSOTROS</a>
       <a href="#obras" class="nav-mobile-link">OBRAS Y PROYECTOS</a>
+      <a href="#clientes" class="nav-mobile-link">CLIENTES</a>
       <a href="#ubicacion" class="nav-mobile-link">UBICACION</a>
       <a href="#contacto" class="nav-mobile-link">CONTACTO</a>
     </nav>
@@ -420,58 +422,86 @@
       </div>
     </div>
     
-    <!-- Carrusel de Logos Deslizantes (Infinito) -->
-    <div class="logos-slide-container">
-      <div class="logos-slide-track">
-        <span class="client-logo-item">BW Group</span>
-        <span class="client-logo-item">Soldati</span>
-        <span class="client-logo-item">Ávilis</span>
-        <span class="client-logo-item">La Cantera</span>
-        <span class="client-logo-item">Darwin</span>
-        <span class="client-logo-item">Howard Johnson</span>
-        <span class="client-logo-item">Vola Investments</span>
-        <span class="client-logo-item">Algodon Mansion</span>
-        <span class="client-logo-item">Invest Property</span>
-        <span class="client-logo-item">Baufest</span>
-        <span class="client-logo-item">Consultatio</span>
-        <span class="client-logo-item">Hilti</span>
-        <span class="client-logo-item">Accor</span>
-        <span class="client-logo-item">Sofitel</span>
-        <span class="client-logo-item">Ibis Hotel</span>
-        <span class="client-logo-item">Movicom</span>
-        <span class="client-logo-item">Roche</span>
-        <span class="client-logo-item">BankBoston</span>
-        <span class="client-logo-item">American Express</span>
-        <span class="client-logo-item">Telefónica</span>
-        <span class="client-logo-item">Puerto Viamonte</span>
-        <span class="client-logo-item">Molinos</span>
+    <!-- Carrusel de Logos (Control Manual con Flechas) -->
+    <div class="logos-carousel-container">
+      <button class="logos-nav-btn prev" id="logos-prev" aria-label="Anterior">
+        <i data-lucide="chevron-left"></i>
+      </button>
+      
+      <div class="logos-carousel-viewport">
+        <div class="logos-carousel-track">
+          <div class="client-logo-item">
+            <span class="logo-placeholder-text">BW Group</span>
+          </div>
+          <div class="client-logo-item">
+            <span class="logo-placeholder-text">Soldati</span>
+          </div>
+          <div class="client-logo-item">
+            <span class="logo-placeholder-text">Ávilis</span>
+          </div>
+          <div class="client-logo-item">
+            <span class="logo-placeholder-text">La Cantera</span>
+          </div>
+          <div class="client-logo-item">
+            <span class="logo-placeholder-text">Darwin</span>
+          </div>
+          <div class="client-logo-item">
+            <span class="logo-placeholder-text">Howard Johnson</span>
+          </div>
+          <div class="client-logo-item">
+            <span class="logo-placeholder-text">Vola Investments</span>
+          </div>
+          <div class="client-logo-item">
+            <span class="logo-placeholder-text">Algodon Mansion</span>
+          </div>
+          <div class="client-logo-item">
+            <span class="logo-placeholder-text">Invest Property</span>
+          </div>
+          <div class="client-logo-item">
+            <span class="logo-placeholder-text">Baufest</span>
+          </div>
+          <div class="client-logo-item">
+            <span class="logo-placeholder-text">Consultatio</span>
+          </div>
+          <div class="client-logo-item">
+            <span class="logo-placeholder-text">Hilti</span>
+          </div>
+          <div class="client-logo-item">
+            <span class="logo-placeholder-text">Accor</span>
+          </div>
+          <div class="client-logo-item">
+            <span class="logo-placeholder-text">Sofitel</span>
+          </div>
+          <div class="client-logo-item">
+            <span class="logo-placeholder-text">Ibis Hotel</span>
+          </div>
+          <div class="client-logo-item">
+            <span class="logo-placeholder-text">Movicom</span>
+          </div>
+          <div class="client-logo-item">
+            <span class="logo-placeholder-text">Roche</span>
+          </div>
+          <div class="client-logo-item">
+            <span class="logo-placeholder-text">BankBoston</span>
+          </div>
+          <div class="client-logo-item">
+            <span class="logo-placeholder-text">American Express</span>
+          </div>
+          <div class="client-logo-item">
+            <span class="logo-placeholder-text">Telefónica</span>
+          </div>
+          <div class="client-logo-item">
+            <span class="logo-placeholder-text">Puerto Viamonte</span>
+          </div>
+          <div class="client-logo-item">
+            <span class="logo-placeholder-text">Molinos</span>
+          </div>
+        </div>
       </div>
       
-      <!-- Duplicado para Scroll Infinito sin cortes -->
-      <div class="logos-slide-track">
-        <span class="client-logo-item">BW Group</span>
-        <span class="client-logo-item">Soldati</span>
-        <span class="client-logo-item">Ávilis</span>
-        <span class="client-logo-item">La Cantera</span>
-        <span class="client-logo-item">Darwin</span>
-        <span class="client-logo-item">Howard Johnson</span>
-        <span class="client-logo-item">Vola Investments</span>
-        <span class="client-logo-item">Algodon Mansion</span>
-        <span class="client-logo-item">Invest Property</span>
-        <span class="client-logo-item">Baufest</span>
-        <span class="client-logo-item">Consultatio</span>
-        <span class="client-logo-item">Hilti</span>
-        <span class="client-logo-item">Accor</span>
-        <span class="client-logo-item">Sofitel</span>
-        <span class="client-logo-item">Ibis Hotel</span>
-        <span class="client-logo-item">Movicom</span>
-        <span class="client-logo-item">Roche</span>
-        <span class="client-logo-item">BankBoston</span>
-        <span class="client-logo-item">American Express</span>
-        <span class="client-logo-item">Telefónica</span>
-        <span class="client-logo-item">Puerto Viamonte</span>
-        <span class="client-logo-item">Molinos</span>
-      </div>
+      <button class="logos-nav-btn next" id="logos-next" aria-label="Siguiente">
+        <i data-lucide="chevron-right"></i>
+      </button>
     </div>
   </section>
 
