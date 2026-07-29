@@ -20,18 +20,19 @@ const projectsData = {
     description: "Gerenciamiento integral (Project Management) y Dirección Ejecutiva de Obra para el complejo de eventos Darwin Pilar. La obra comprendió la construcción del salón principal vidriado de gran altura, recepción integrada con terraza panorámica, infraestructura de servicios, paisajismo y parque perimetral. Coordinación técnica en terreno, control de plazos críticos de ejecución y gestión integral de contratistas de obra civil, climatización e iluminación arquitectónica."
   },
   2: {
-    title: "Edificio Catalinas",
-    category: "Dirección de Obra",
+    title: "Algodon Mansion",
+    category: "Dirección de Obra & Gerenciamiento",
     images: [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1200&q=80"
+      "./algodon_1.jpg",
+      "./algodon_2.jpg",
+      "./algodon_3.jpg",
+      "./algodon_4.jpg"
     ],
-    location: "Retiro, CABA",
-    area: "8.200 m²",
+    location: "Recoleta, CABA",
+    area: "2.100 m²",
     year: "2023",
-    client: "Inversiones Catalinas S.A.",
-    description: "Dirección ejecutiva de obra para una torre corporativa con certificación LEED. Supervisión diaria del cumplimiento del pliego de condiciones técnicas en estructura de hormigón armado, fachadas curtain-wall de alto rendimiento e instalaciones termomecánicas complejas. Coordinación técnica en terreno para garantizar los máximos estándares de seguridad y calidad exigidos por el comitente."
+    client: "Algodon Mansion Boutique Hotel",
+    description: "Gerenciamiento integral y Dirección Ejecutiva de Obra para la restauración patrimonial y remodelación de alta gama de Algodon Mansion, exclusivo hotel boutique en Recoleta. La intervención abarcó la preservación de la fachada neoclásica francesa, acondicionamiento de suites de lujo, restauración del lounge bar con ónix retroiluminado, atrio central y la construcción del rooftop deck panorámico con piscina."
   },
   3: {
     title: "Casa Bosque",
