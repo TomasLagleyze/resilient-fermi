@@ -5,18 +5,18 @@
 // Base de datos local de proyectos para modal inmersivo
 const projectsData = {
   1: {
-    title: "Residencia Al Río",
-    category: "Gerenciamiento de Obra",
+    title: "Salón de Eventos Darwin Pilar",
+    category: "Gerenciamiento & Dirección de Obra",
     images: [
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80"
+      "./darwin_pilar_1.jpg",
+      "./darwin_pilar_2.jpg",
+      "./darwin_pilar_3.jpg"
     ],
-    location: "Nordelta, Buenos Aires",
-    area: "650 m²",
-    year: "2024",
-    client: "Privado",
-    description: "Gerenciamiento integral de costos, contratos y plazos de ejecución para una residencia unifamiliar de alta gama. El proyecto requirió una rigurosa planificación financiera (Gantt) y la optimización en la contratación de más de 15 gremios independientes. Logramos reducir el desvío presupuestario estimado en un 12% mediante una estrategia de compras anticipada de materiales y licitaciones competitivas."
+    location: "Pilar, Provincia de Buenos Aires",
+    area: "3.500 m²",
+    year: "2023",
+    client: "Darwin Eventos / Grupo Darwin",
+    description: "Gerenciamiento integral (Project Management) y Dirección Ejecutiva de Obra para el complejo de eventos Darwin Pilar. La obra comprendió la construcción del salón principal vidriado de gran altura, recepción integrada con terraza panorámica, infraestructura de servicios, paisajismo y parque perimetral. Coordinación técnica en terreno, control de plazos críticos de ejecución y gestión integral de contratistas de obra civil, climatización e iluminación arquitectónica."
   },
   2: {
     title: "Edificio Catalinas",
@@ -188,7 +188,7 @@ document.addEventListener("DOMContentLoaded", () => {
       projectItems.forEach(item => {
         const itemCategory = item.getAttribute("data-category");
 
-        if (filterValue === "all" || itemCategory === filterValue) {
+        if (filterValue === "all" || (itemCategory && itemCategory.includes(filterValue))) {
           item.classList.remove("hide");
         } else {
           item.classList.add("hide");
