@@ -213,13 +213,15 @@ document.addEventListener("DOMContentLoaded", () => {
       const duration = 2000; // ms
       const increment = target / (duration / 16); // ~60fps
 
+      const formatNumber = (num) => Math.floor(num).toLocaleString('es-AR');
+
       const updateCounter = () => {
         count += increment;
         if (count < target) {
-          metric.textContent = prefix + Math.floor(count) + suffix;
+          metric.textContent = prefix + formatNumber(count) + suffix;
           requestAnimationFrame(updateCounter);
         } else {
-          metric.textContent = prefix + target + suffix;
+          metric.textContent = prefix + formatNumber(target) + suffix;
         }
       };
 
