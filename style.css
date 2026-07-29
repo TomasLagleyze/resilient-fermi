@@ -1960,147 +1960,86 @@ img {
 }
 
 /* ==========================================================================
-   SECCIÓN DE CLIENTES (CARRUSEL MANUAL)
+   SECCIÓN DE CLIENTES (MARQUEE INFINITO CON LOGOS)
    ========================================================================== */
 
-.logos-carousel-container {
+.logos-slide-container {
+  overflow: hidden;
+  padding: 2.5rem 0;
+  background-color: var(--color-white);
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+  display: flex;
+  user-select: none;
+}
+
+.logos-slide-track {
   display: flex;
   align-items: center;
-  position: relative;
-  width: 100%;
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 0 4rem; /* Dejar espacio para los botones */
+  gap: 2.5rem;
+  animation: logo-scroll 45s linear infinite;
+  padding-right: 2.5rem; /* Espaciado continuo */
 }
 
-.logos-carousel-viewport {
-  width: 100%;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
-  display: flex;
-  padding: 2rem 0;
-}
-
-/* Ocultar barra de scroll */
-.logos-carousel-viewport::-webkit-scrollbar {
-  display: none;
-}
-.logos-carousel-viewport {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-}
-
-.logos-carousel-track {
-  display: flex;
-  gap: 3rem;
-  align-items: center;
+.logos-slide-container:hover .logos-slide-track {
+  animation-play-state: paused; /* Pausar al pasar el cursor */
 }
 
 .client-logo-item {
-  scroll-snap-align: start;
   flex: 0 0 auto;
-  min-width: 180px;
-  height: 80px;
+  width: 150px;
+  height: 85px;
   background-color: var(--color-white);
   border: 1px solid var(--color-border);
+  border-radius: 6px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1rem;
+  padding: 0.6rem;
+  overflow: hidden;
   transition: var(--transition-fast);
   box-shadow: var(--shadow-sm);
-  user-select: none;
 }
 
 .client-logo-item:hover {
   border-color: var(--color-orange);
-  transform: translateY(-2px);
+  transform: translateY(-3px);
   box-shadow: var(--shadow-md);
 }
 
-.logo-placeholder-text {
-  font-family: var(--font-logo);
-  font-size: 1rem;
-  font-weight: 500;
-  color: var(--color-grey-dark);
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  text-align: center;
-  line-height: 1.2;
+.client-logo-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
   transition: var(--transition-fast);
 }
 
-.client-logo-item:hover .logo-placeholder-text {
-  color: var(--color-orange);
+.client-logo-item:hover .client-logo-img {
+  transform: scale(1.06);
 }
 
-/* Botones de Navegación del Carrusel */
-.logos-nav-btn {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 44px;
-  height: 44px;
-  background-color: var(--color-white);
-  border: 1px solid var(--color-border);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--color-black);
-  cursor: pointer;
-  z-index: 10;
-  transition: var(--transition-fast);
-  box-shadow: var(--shadow-sm);
-}
-
-.logos-nav-btn:hover {
-  background-color: var(--color-orange);
-  color: var(--color-white);
-  border-color: var(--color-orange);
-  transform: translateY(-50%) scale(1.05);
-}
-
-.logos-nav-btn.prev {
-  left: 1rem;
-}
-
-.logos-nav-btn.next {
-  right: 1rem;
-}
-
-.logos-nav-btn i {
-  width: 18px;
-  height: 18px;
+@keyframes logo-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
 @media (max-width: 768px) {
-  .logos-carousel-container {
-    padding: 0 3rem;
+  .logos-slide-container {
+    padding: 2rem 0;
   }
   
-  .logos-nav-btn {
-    width: 36px;
-    height: 36px;
-  }
-  
-  .logos-nav-btn.prev {
-    left: 0.5rem;
-  }
-  
-  .logos-nav-btn.next {
-    right: 0.5rem;
+  .logos-slide-track {
+    gap: 1.5rem;
+    padding-right: 1.5rem;
   }
   
   .client-logo-item {
-    min-width: 150px;
-    height: 70px;
-  }
-  
-  .logo-placeholder-text {
-    font-size: 0.85rem;
+    width: 120px;
+    height: 65px;
   }
 }
 

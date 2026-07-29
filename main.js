@@ -511,23 +511,4 @@ document.addEventListener("DOMContentLoaded", () => {
       }, 1500);
     });
   }
-
-  // ==========================================================================
-  // NAVEGACIÓN DEL CARRUSEL DE CLIENTES
-  // ==========================================================================
-  const logosViewport = document.querySelector(".logos-carousel-viewport");
-  const logosPrevBtn = document.getElementById("logos-prev");
-  const logosNextBtn = document.getElementById("logos-next");
-
-  if (logosViewport && logosPrevBtn && logosNextBtn) {
-    const scrollStep = 300; // Pixels a desplazar en cada clic
-    
-    logosPrevBtn.addEventListener("click", () => {
-      logosViewport.scrollBy({ left: -scrollStep, behavior: "smooth" });
-    });
-
-    logosNextBtn.addEventListener("click", () => {
-      logosViewport.scrollBy({ left: scrollStep, behavior: "smooth" });
-    });
-  }
 });
