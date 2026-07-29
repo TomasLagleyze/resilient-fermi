@@ -1959,5 +1959,74 @@ img {
   }
 }
 
+/* ==========================================================================
+   SECCIÓN DE CLIENTES (MARQUEE INFINITO)
+   ========================================================================== */
+
+.logos-slide-container {
+  overflow: hidden;
+  padding: 2.5rem 0;
+  background-color: var(--color-white);
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+  display: flex;
+  user-select: none;
+}
+
+.logos-slide-track {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  animation: logo-scroll 45s linear infinite;
+  padding-right: 5rem; /* Asegura un espaciado continuo */
+}
+
+.logos-slide-container:hover .logos-slide-track {
+  animation-play-state: paused; /* Pausar la animación al pasar el cursor */
+}
+
+.client-logo-item {
+  font-family: var(--font-logo);
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: var(--color-grey-dark);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  opacity: 0.55;
+  transition: var(--transition-fast);
+  cursor: default;
+}
+
+.client-logo-item:hover {
+  opacity: 1;
+  color: var(--color-orange);
+}
+
+@keyframes logo-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@media (max-width: 768px) {
+  .logos-slide-container {
+    padding: 2rem 0;
+  }
+  
+  .logos-slide-track {
+    gap: 3.5rem;
+    padding-right: 3.5rem;
+  }
+  
+  .client-logo-item {
+    font-size: 0.95rem;
+  }
+}
+
+
 
 
