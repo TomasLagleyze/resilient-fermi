@@ -10,7 +10,8 @@ const projectsData = {
     images: [
       "./darwin_pilar_1.jpg",
       "./darwin_pilar_2.jpg",
-      "./darwin_pilar_3.jpg"
+      "./darwin_pilar_3.jpg",
+      "./darwin_pilar_4.jpg"
     ],
     location: "Pilar, Provincia de Buenos Aires",
     area: "3.500 m²",
