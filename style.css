@@ -545,20 +545,39 @@ img {
 }
 
 .service-title {
-  font-size: 1.25rem;
-  font-weight: 600;
+  font-size: 1.2rem;
+  font-weight: 700;
   color: var(--color-black);
-  margin-bottom: 1rem;
+  margin-bottom: 0.25rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
+}
+
+.service-subtitle {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--color-orange);
+  margin-bottom: 1.5rem;
+  display: block;
 }
 
 .service-description {
   font-size: 0.9rem;
   color: var(--color-grey);
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   line-height: 1.6;
   flex-grow: 1;
+}
+
+.service-stage-title {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-black);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: 1rem;
+  margin-bottom: 0.2rem;
+  list-style: none;
 }
 
 .service-list {
