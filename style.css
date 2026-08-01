@@ -637,12 +637,22 @@ img {
 }
 
 .about-text {
-  font-size: 1.5rem;
+  font-size: 1.35rem;
   line-height: 1.5;
-  color: rgba(255, 255, 255, 0.9);
-  margin-bottom: 2rem;
+  color: rgba(255, 255, 255, 0.95);
+  margin-bottom: 0.5rem;
   border-left: 2px solid var(--color-orange);
   padding-left: 1.5rem;
+}
+
+.about-author {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--color-orange);
+  margin-bottom: 2rem;
+  padding-left: 1.5rem;
+  display: block;
+  letter-spacing: 0.05em;
 }
 
 .about-paragraph {
