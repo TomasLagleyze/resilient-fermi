@@ -35,62 +35,6 @@ const projectsData = {
     year: "2023",
     client: "Algodon Mansion Boutique Hotel",
     description: "Gerenciamiento integral y Dirección Ejecutiva de Obra para la restauración patrimonial y remodelación de alta gama de Algodon Mansion, exclusivo hotel boutique en Recoleta. La intervención abarcó la preservación de la fachada neoclásica francesa, acondicionamiento de suites de lujo, restauración del lounge bar con ónix retroiluminado, atrio central y la construcción del rooftop deck panorámico con piscina."
-  },
-  3: {
-    title: "Casa Bosque",
-    category: "Proyecto de Arquitectura",
-    images: [
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80"
-    ],
-    location: "Cariló, Costa Atlántica",
-    area: "320 m²",
-    year: "2024",
-    client: "Privado",
-    description: "Desarrollo del proyecto de arquitectura ejecutiva detallado para una vivienda brutalista construida íntegramente en hormigón visto y madera de lapacho. Producción de la totalidad del legajo constructivo (planos de replanteo, detalles de carpinterías de aluminio DVH, encuentros estructurales y pliego técnico de terminaciones) listo para licitación de contratistas de obra."
-  },
-  4: {
-    title: "Complejo Las Piedras",
-    category: "Gerenciamiento de Obra",
-    images: [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=1200&q=80"
-    ],
-    location: "Tigre, Buenos Aires",
-    area: "4.500 m²",
-    year: "2022",
-    client: "Fideicomiso Las Piedras",
-    description: "Gerenciamiento integral (Project Management) para un complejo multifamiliar premium de 4 edificios de baja altura. Gestión integral desde la factibilidad de tierras, licitación de contratista principal (obra civil), coordinación de ingenierías asociadas, control mensual de certificaciones de avance de obra y administración del fondo fiduciario para inversionistas."
-  },
-  5: {
-    title: "Showroom Palermo",
-    category: "Dirección de Obra",
-    images: [
-      "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=1200&q=80"
-    ],
-    location: "Palermo Hollywood, CABA",
-    area: "480 m²",
-    year: "2023",
-    client: "Marca de Indumentaria Premium",
-    description: "Dirección técnica y gerenciamiento de plazos críticos para la remodelación e interiorismo de un local comercial insignia. La obra civil se ejecutó en un plazo récord de 45 días, coordinando las tareas de instalaciones especiales de iluminación, climatización VRV, carpinterías metálicas a medida y terminaciones finas de microcemento."
-  },
-  6: {
-    title: "Penthouse Libertador",
-    category: "Proyecto de Arquitectura",
-    images: [
-      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1502005229762-fc1b2b812ca5?auto=format&fit=crop&w=1200&q=80"
-    ],
-    location: "Belgrano, CABA",
-    area: "210 m²",
-    year: "2025",
-    client: "Privado",
-    description: "Proyecto ejecutivo para la refuncionalización integral de un semipiso de gran categoría. El diseño incluyó el replanteo de instalaciones sanitarias y eléctricas, el diseño de mobiliario a medida revestido en madera natural, revestimientos de mármol y detalles de iluminación lineal LED integrada. Documentación técnica exhaustiva provista para la dirección técnica del proyecto."
   }
 };
 
