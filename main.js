@@ -65,7 +65,7 @@ const projectsData = {
     area: "320 m²",
     year: "2021",
     client: "Residencia Privada (Unifamiliar)",
-    description: "Dirección de Obra ejecutiva y Gerenciamiento integral para la residencia unifamiliar Casa Arribeños en la Ciudad Autónoma de Buenos Aires. Diseñada a la medida de una pareja y su hijo, la intervención comprendió la remodelación integral de fachada urbana, articulación de niveles interiores con escalera flotante de madera, grandes ventanales hacia el patio trasero ajardinado, carpinterías de alta prestación, biblioteca integral de madera maciza y áreas sociales de concepto abierto."
+    description: "Dirección de Obra ejecutiva y Gerenciamiento integral para la residencia unifamiliar Casa Arribeños en la Ciudad Autónoma de Buenos Aires, diseñada por el reconocido estudio Adamo - Faiden. Concebida a la medida de una pareja y su hijo, la intervención comprendió la ejecución y coordinación técnica de fachada urbana, articulación de niveles interiores con escalera flotante de madera, grandes ventanales hacia el patio trasero ajardinado, carpinterías de alta prestación, biblioteca integral de madera maciza y áreas sociales de concepto abierto."
   }
 };
 
