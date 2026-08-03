@@ -51,6 +51,21 @@ const projectsData = {
     year: "2022",
     client: "Howard Johnson Hotels / Grupo Desarrollador",
     description: "Gerenciamiento integral de proyecto (Project Management) y Dirección Ejecutiva de Obra para el complejo Hotel Howard Johnson Punta Carrasco en Uruguay. La obra abarcó el desarrollo edilicio frente al lago, habitaciones ejecutivas con vistas panorámicas, piscina exterior con solárium y decks de madera sobre el espejo de agua, áreas comunes, restaurante y parquización de entorno. Control de gestión, supervisión técnica y coordinación general de contratistas de obra civil e instalaciones complejas."
+  },
+  4: {
+    title: "Casa Arribeños",
+    category: "Dirección de Obra & Gerenciamiento",
+    images: [
+      "./arribenos_1.jpg",
+      "./arribenos_2.jpg",
+      "./arribenos_3.jpg",
+      "./arribenos_4.jpg"
+    ],
+    location: "CABA, Argentina",
+    area: "320 m²",
+    year: "2021",
+    client: "Residencia Privada (Unifamiliar)",
+    description: "Dirección de Obra ejecutiva y Gerenciamiento integral para la residencia unifamiliar Casa Arribeños en la Ciudad Autónoma de Buenos Aires. Diseñada a la medida de una pareja y su hijo, la intervención comprendió la remodelación integral de fachada urbana, articulación de niveles interiores con escalera flotante de madera, grandes ventanales hacia el patio trasero ajardinado, carpinterías de alta prestación, biblioteca integral de madera maciza y áreas sociales de concepto abierto."
   }
 };
 
