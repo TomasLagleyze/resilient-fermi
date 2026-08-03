@@ -35,6 +35,22 @@ const projectsData = {
     year: "2023",
     client: "Algodon Mansion Boutique Hotel",
     description: "Gerenciamiento integral y Dirección Ejecutiva de Obra para la restauración patrimonial y remodelación de alta gama de Algodon Mansion, exclusivo hotel boutique en Recoleta. La intervención abarcó la preservación de la fachada neoclásica francesa, acondicionamiento de suites de lujo, restauración del lounge bar con ónix retroiluminado, atrio central y la construcción del rooftop deck panorámico con piscina."
+  },
+  3: {
+    title: "Hotel Howard Johnson Punta Carrasco",
+    category: "Gerenciamiento & Dirección de Obra",
+    images: [
+      "./hj_carrasco_1.jpg",
+      "./hj_carrasco_2.jpg",
+      "./hj_carrasco_3.jpg",
+      "./hj_carrasco_4.jpg",
+      "./hj_carrasco_5.jpg"
+    ],
+    location: "Punta Carrasco, Uruguay",
+    area: "4.800 m²",
+    year: "2022",
+    client: "Howard Johnson Hotels / Grupo Desarrollador",
+    description: "Gerenciamiento integral de proyecto (Project Management) y Dirección Ejecutiva de Obra para el complejo Hotel Howard Johnson Punta Carrasco en Uruguay. La obra abarcó el desarrollo edilicio frente al lago, habitaciones ejecutivas con vistas panorámicas, piscina exterior con solárium y decks de madera sobre el espejo de agua, áreas comunes, restaurante y parquización de entorno. Control de gestión, supervisión técnica y coordinación general de contratistas de obra civil e instalaciones complejas."
   }
 };
 
