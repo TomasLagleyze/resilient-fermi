@@ -66,6 +66,22 @@ const projectsData = {
     year: "2021",
     client: "Residencia Privada (Unifamiliar)",
     description: "Dirección de Obra ejecutiva y Gerenciamiento integral para la residencia unifamiliar Casa Arribeños en la Ciudad Autónoma de Buenos Aires, diseñada por el reconocido estudio Adamo - Faiden. Concebida a la medida de una pareja y su hijo, la intervención comprendió la ejecución y coordinación técnica de fachada urbana, articulación de niveles interiores con escalera flotante de madera, grandes ventanales hacia el patio trasero ajardinado, carpinterías de alta prestación, biblioteca integral de madera maciza y áreas sociales de concepto abierto."
+  },
+  5: {
+    title: "Edificio Residencial Cabrera",
+    category: "Gerenciamiento & Dirección de Obra",
+    images: [
+      "./cabrera_1.jpg",
+      "./cabrera_2.jpg",
+      "./cabrera_3.jpg",
+      "./cabrera_4.jpg",
+      "./cabrera_5.jpg"
+    ],
+    location: "CABA, Argentina",
+    area: "1.800 m²",
+    year: "2023",
+    client: "Desarrolladora Inmobiliaria",
+    description: "Gerenciamiento integral (Project Management) y Dirección Ejecutiva de Obra para el Edificio Residencial Cabrera en la Ciudad Autónoma de Buenos Aires. El desarrollo para la empresa desarrolladora comprendió la construcción del edificio residencial multifamiliar, supervisión técnica en terreno, control de presupuesto y plazos de ejecución, coordinación de contratistas y supervisión de terminaciones arquitectónicas e instalaciones."
   }
 };
 
