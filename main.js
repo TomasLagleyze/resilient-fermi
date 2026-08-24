@@ -82,6 +82,22 @@ const projectsData = {
     year: "2023",
     client: "Desarrolladora Inmobiliaria",
     description: "Gerenciamiento integral (Project Management) y Dirección Ejecutiva de Obra para el Edificio Residencial Cabrera en la Ciudad Autónoma de Buenos Aires. El desarrollo para la empresa desarrolladora comprendió la construcción del edificio residencial multifamiliar, supervisión técnica en terreno, control de presupuesto y plazos de ejecución, coordinación de contratistas y supervisión de terminaciones arquitectónicas e instalaciones."
+  },
+  6: {
+    title: "Ugarte 1515",
+    category: "Dirección de Obra & Gerenciamiento",
+    images: [
+      "./ugarte_1.jpg",
+      "./ugarte_2.jpg",
+      "./ugarte_3.jpg",
+      "./ugarte_4.jpg",
+      "./ugarte_5.jpg"
+    ],
+    location: "Núñez, CABA, Argentina",
+    area: "2.400 m²",
+    year: "2023",
+    client: "Desarrollo Residencial",
+    description: "Dirección de Obra ejecutiva y Gerenciamiento integral para el edificio residencial de viviendas Ugarte 1515, ubicado en el barrio de Núñez, Ciudad Autónoma de Buenos Aires. El proyecto cuenta con exclusivas unidades residenciales, subsuelo de cocheras y un completo sector de amenities que incluye piscina con solárium de deck de madera, gimnasio vidriado, SUM y áreas parquizadas exteriores."
   }
 };
 
