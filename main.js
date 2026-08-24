@@ -98,6 +98,22 @@ const projectsData = {
     year: "2023",
     client: "Desarrollo Residencial",
     description: "Dirección de Obra ejecutiva y Gerenciamiento integral para el edificio residencial de viviendas Ugarte 1515, ubicado en el barrio de Núñez, Ciudad Autónoma de Buenos Aires. El proyecto cuenta con exclusivas unidades residenciales, subsuelo de cocheras y un completo sector de amenities que incluye piscina con solárium de deck de madera, gimnasio vidriado, SUM y áreas parquizadas exteriores."
+  },
+  7: {
+    title: "QIUB",
+    category: "Dirección de Obra & Gerenciamiento",
+    images: [
+      "./qiub_1.jpg",
+      "./qiub_2.jpg",
+      "./qiub_3.jpg",
+      "./qiub_4.jpg",
+      "./qiub_5.jpg"
+    ],
+    location: "Palermo, CABA, Argentina",
+    area: "35.000 m²",
+    year: "2024",
+    client: "BW Group / BMA Arquitectos",
+    description: "Dirección de Obra ejecutiva y Gerenciamiento integral para el emblemático complejo de usos mixtos QIUB, ubicado en el corazón de Palermo Hollywood (Av. Juan B. Justo y Honduras). El desarrollo de gran envergadura integra una torre de 27 pisos con oficinas corporativas de vanguardia, residencias exclusivas, basamento comercial, salas de cine, patio gastronómico, cocheras en subsuelos y certificación sustentable LEED."
   }
 };
 
