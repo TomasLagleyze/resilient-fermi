@@ -114,22 +114,6 @@ const projectsData = {
     year: "2024",
     client: "BW Group / BMA Arquitectos",
     description: "Dirección de Obra ejecutiva y Gerenciamiento integral para el emblemático complejo de usos mixtos QIUB, ubicado en el corazón de Palermo Hollywood (Av. Juan B. Justo y Honduras). El desarrollo de gran envergadura integra una torre de 27 pisos con oficinas corporativas de vanguardia, residencias exclusivas, basamento comercial, salas de cine, patio gastronómico, cocheras en subsuelos y certificación sustentable LEED."
-  },
-  8: {
-    title: "Residencia del Embajador de Suiza",
-    category: "Gerenciamiento de Obra",
-    images: [
-      "./suiza_1.jpg",
-      "./suiza_2.jpg",
-      "./suiza_3.jpg",
-      "./suiza_4.jpg",
-      "./suiza_5.jpg"
-    ],
-    location: "Barrio Parque, CABA, Argentina",
-    area: "950 m²",
-    year: "2023",
-    client: "Embajada de Suiza en Argentina / Estudio Adamo - Faiden",
-    description: "Servicio exclusivo de Gerenciamiento integral de obra (Project Management) para la histórica Residencia del Embajador de Suiza (Casa Schenström, 1927), situada en el exclusivo entorno protegido de Barrio Parque (Palermo Chico). Convocados por el reconocido estudio de arquitectura Adamo - Faiden y por encargo directo de la Embajada de Suiza, la labor comprendió la planificación estratégica, supervisión de contratistas, control presupuestario y gestión técnica de las obras de adecuación, conservación patrimonial y modernización de instalaciones."
   }
 };
 
