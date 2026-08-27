@@ -114,6 +114,22 @@ const projectsData = {
     year: "2025",
     client: "BW Group / BMA Arquitectos",
     description: "Dirección de Obra ejecutiva y Gerenciamiento integral para el emblemático complejo de usos mixtos QIUB, ubicado en el corazón de Palermo Hollywood (Av. Juan B. Justo y Honduras). El desarrollo de gran envergadura integra una torre de 27 pisos con oficinas corporativas de vanguardia, residencias exclusivas, basamento comercial, salas de cine, patio gastronómico, cocheras en subsuelos y certificación sustentable LEED."
+  },
+  8: {
+    title: "Torre Grandbourg",
+    category: "Dirección de Obra & Gerenciamiento",
+    images: [
+      "./grandbourg_1.jpg",
+      "./grandbourg_2.jpg",
+      "./grandbourg_3.jpg",
+      "./grandbourg_4.jpg",
+      "./grandbourg_5.jpg"
+    ],
+    location: "Palermo Chico, CABA",
+    area: "12.000 m²",
+    year: "2006",
+    client: "Consultatio (Eduardo Costantini) / Estudio AFT",
+    description: "Dirección Ejecutiva de Obra y Gerenciamiento integral para la emblemática Torre Grand Bourg sobre Av. Figueroa Alcorta 3051, en el exclusivo sector de Palermo Chico. Desarrollada por Consultatio y proyectada por el prestigioso estudio AFT (Atelman-Fourcade-Tapia), la torre de inspiración academicista francesa de 15 niveles alberga 21 residencias de ultra lujo, imponente lobby en mármol de doble altura, subsuelos de cocheras, jardines privados y amenities premium."
   }
 };
 
