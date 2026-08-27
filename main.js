@@ -15,7 +15,7 @@ const projectsData = {
     ],
     location: "Pilar, Provincia de Buenos Aires",
     area: "3.500 m²",
-    year: "2023",
+    year: "2019",
     client: "Darwin Eventos / Grupo Darwin",
     description: "Gerenciamiento integral (Project Management) y Dirección Ejecutiva de Obra para el complejo de eventos Darwin Pilar. La obra comprendió la construcción del salón principal vidriado de gran altura, recepción integrada con terraza panorámica, infraestructura de servicios, paisajismo y parque perimetral. Coordinación técnica en terreno, control de plazos críticos de ejecución y gestión integral de contratistas de obra civil, climatización e iluminación arquitectónica."
   },
