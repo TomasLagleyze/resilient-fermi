@@ -32,7 +32,7 @@ const projectsData = {
     ],
     location: "Recoleta, CABA",
     area: "2.100 m²",
-    year: "2023",
+    year: "2009",
     client: "Algodon Mansion Boutique Hotel",
     description: "Gerenciamiento integral y Dirección Ejecutiva de Obra para la restauración patrimonial y remodelación de alta gama de Algodon Mansion, exclusivo hotel boutique en Recoleta. La intervención abarcó la preservación de la fachada neoclásica francesa, acondicionamiento de suites de lujo, restauración del lounge bar con ónix retroiluminado, atrio central y la construcción del rooftop deck panorámico con piscina."
   },
@@ -48,7 +48,7 @@ const projectsData = {
     ],
     location: "Punta Carrasco, Uruguay",
     area: "4.800 m²",
-    year: "2022",
+    year: "2017",
     client: "Howard Johnson Hotels / Grupo Desarrollador",
     description: "Gerenciamiento integral de proyecto (Project Management) y Dirección Ejecutiva de Obra para el complejo Hotel Howard Johnson Punta Carrasco en Uruguay. La obra abarcó el desarrollo edilicio frente al lago, habitaciones ejecutivas con vistas panorámicas, piscina exterior con solárium y decks de madera sobre el espejo de agua, áreas comunes, restaurante y parquización de entorno. Control de gestión, supervisión técnica y coordinación general de contratistas de obra civil e instalaciones complejas."
   },
@@ -63,7 +63,7 @@ const projectsData = {
     ],
     location: "CABA, Argentina",
     area: "320 m²",
-    year: "2021",
+    year: "2014",
     client: "Residencia Privada (Unifamiliar)",
     description: "Dirección de Obra ejecutiva y Gerenciamiento integral para la residencia unifamiliar Casa Arribeños en la Ciudad Autónoma de Buenos Aires, diseñada por el reconocido estudio Adamo - Faiden. Concebida a la medida de una pareja y su hijo, la intervención comprendió la ejecución y coordinación técnica de fachada urbana, articulación de niveles interiores con escalera flotante de madera, grandes ventanales hacia el patio trasero ajardinado, carpinterías de alta prestación, biblioteca integral de madera maciza y áreas sociales de concepto abierto."
   },
@@ -79,7 +79,7 @@ const projectsData = {
     ],
     location: "CABA, Argentina",
     area: "1.800 m²",
-    year: "2023",
+    year: "2024",
     client: "Desarrolladora Inmobiliaria",
     description: "Gerenciamiento integral (Project Management) y Dirección Ejecutiva de Obra para el Edificio Residencial Cabrera en la Ciudad Autónoma de Buenos Aires. El desarrollo para la empresa desarrolladora comprendió la construcción del edificio residencial multifamiliar, supervisión técnica en terreno, control de presupuesto y plazos de ejecución, coordinación de contratistas y supervisión de terminaciones arquitectónicas e instalaciones."
   },
@@ -95,7 +95,7 @@ const projectsData = {
     ],
     location: "Núñez, CABA, Argentina",
     area: "2.400 m²",
-    year: "2023",
+    year: "2025",
     client: "Desarrollo Residencial",
     description: "Dirección de Obra ejecutiva y Gerenciamiento integral para el edificio residencial de viviendas Ugarte 1515, ubicado en el barrio de Núñez, Ciudad Autónoma de Buenos Aires. El proyecto cuenta con exclusivas unidades residenciales, subsuelo de cocheras y un completo sector de amenities que incluye piscina con solárium de deck de madera, gimnasio vidriado, SUM y áreas parquizadas exteriores."
   },
@@ -111,7 +111,7 @@ const projectsData = {
     ],
     location: "Palermo, CABA, Argentina",
     area: "35.000 m²",
-    year: "2024",
+    year: "2025",
     client: "BW Group / BMA Arquitectos",
     description: "Dirección de Obra ejecutiva y Gerenciamiento integral para el emblemático complejo de usos mixtos QIUB, ubicado en el corazón de Palermo Hollywood (Av. Juan B. Justo y Honduras). El desarrollo de gran envergadura integra una torre de 27 pisos con oficinas corporativas de vanguardia, residencias exclusivas, basamento comercial, salas de cine, patio gastronómico, cocheras en subsuelos y certificación sustentable LEED."
   }
