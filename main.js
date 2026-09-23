@@ -130,6 +130,22 @@ const projectsData = {
     year: "2006",
     client: "Consultatio (Eduardo Costantini) / Estudio AFT",
     description: "Dirección Ejecutiva de Obra y Gerenciamiento integral para la emblemática Torre Grand Bourg sobre Av. Figueroa Alcorta 3051, en el exclusivo sector de Palermo Chico. Desarrollada por Consultatio y proyectada por el prestigioso estudio AFT (Atelman-Fourcade-Tapia), la torre de inspiración academicista francesa de 15 niveles alberga 21 residencias de ultra lujo, imponente lobby en mármol de doble altura, subsuelos de cocheras, jardines privados y amenities premium."
+  },
+  9: {
+    title: "Hotel Villa Traful",
+    category: "Gerenciamiento de Proyecto",
+    images: [
+      "./traful_1.jpg",
+      "./traful_2.jpg",
+      "./traful_3.jpg",
+      "./traful_4.jpg",
+      "./traful_5.jpg"
+    ],
+    location: "Villa Traful, Neuquén",
+    area: "2.800 m²",
+    year: "2022",
+    client: "Desarrollo Hotelero / Inversión Privada",
+    description: "Gerenciamiento integral de proyecto (Project Management) para el complejo hotelero y glamping Hotel Villa Traful en la Patagonia Argentina. La intervención abarcó la planificación estratégica, supervisión técnica y coordinación general para el edificio principal de arquitectura contemporánea integrado al bosque andino-patagónico, imponente lobby y recepción con revestimientos en madera, suites ejecutivas con hogares a leña suspendidos y domos geodésicos sobre plataformas elevadas con vistas panorámicas a la cordillera."
   }
 };
 
