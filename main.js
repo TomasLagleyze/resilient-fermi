@@ -146,6 +146,22 @@ const projectsData = {
     year: "2022",
     client: "Desarrollo Hotelero / Inversión Privada",
     description: "Gerenciamiento integral de proyecto (Project Management) para el complejo hotelero y glamping Hotel Villa Traful en la Patagonia Argentina. La intervención abarcó la planificación estratégica, supervisión técnica y coordinación general para el edificio principal de arquitectura contemporánea integrado al bosque andino-patagónico, imponente lobby y recepción con revestimientos en madera, suites ejecutivas con hogares a leña suspendidos y domos geodésicos sobre plataformas elevadas con vistas panorámicas a la cordillera."
+  },
+  10: {
+    title: "Hotel Rada Tilly",
+    category: "Gerenciamiento de Proyecto",
+    images: [
+      "./radatilly_1.jpg",
+      "./radatilly_2.jpg",
+      "./radatilly_3.jpg",
+      "./radatilly_4.jpg",
+      "./radatilly_5.jpg"
+    ],
+    location: "Rada Tilly, Chubut",
+    area: "3.400 m²",
+    year: "2021",
+    client: "Inversión Privada / Estudio Brand Arquitectura",
+    description: "Gerenciamiento integral de proyecto (Project Management) para el exclusivo complejo hotelero Hotel Rada Tilly, emplazado sobre la ladera natural de la montaña en la villa balnearia de Rada Tilly, Chubut. Proyectado por el prestigioso estudio Brand Arquitectura, la labor comprendió la planificación técnica, supervisión ejecutiva y coordinación general de contratistas para una arquitectura de vanguardia que integra terrazas voladizas sobre columnas de hormigón, piscina sinfín (infinity pool) suspendida, muros de piedra regional, suites con vistas abiertas y un amplio lobby central con chimenea lineal y sector de lounge."
   }
 };
 
