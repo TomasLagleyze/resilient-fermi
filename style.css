@@ -636,23 +636,42 @@ img {
   flex-direction: column;
 }
 
+.about-quote-box {
+  border-left: 2px solid var(--color-orange);
+  padding-left: 1.5rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.about-quote-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-orange);
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
 .about-text {
   font-size: 1.35rem;
   line-height: 1.5;
   color: rgba(255, 255, 255, 0.95);
   margin-bottom: 0.5rem;
-  border-left: 2px solid var(--color-orange);
-  padding-left: 1.5rem;
 }
 
 .about-author {
-  font-size: 1.05rem;
+  font-size: 1rem;
   font-weight: 600;
   color: var(--color-orange);
-  margin-bottom: 2rem;
-  padding-left: 1.5rem;
   display: block;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.03em;
+}
+
+.about-author-context {
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.9rem;
 }
 
 .about-paragraph {
