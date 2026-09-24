@@ -162,6 +162,22 @@ const projectsData = {
     year: "2021",
     client: "Inversión Privada / Estudio Brand Arquitectura",
     description: "Gerenciamiento integral de proyecto (Project Management) para el exclusivo complejo hotelero Hotel Rada Tilly, emplazado sobre la ladera natural de la montaña en la villa balnearia de Rada Tilly, Chubut. Proyectado por el prestigioso estudio Brand Arquitectura, la labor comprendió la planificación técnica, supervisión ejecutiva y coordinación general de contratistas para una arquitectura de vanguardia que integra terrazas voladizas sobre columnas de hormigón, piscina sinfín (infinity pool) suspendida, muros de piedra regional, suites con vistas abiertas y un amplio lobby central con chimenea lineal y sector de lounge."
+  },
+  11: {
+    title: "Velociudad Speedcity",
+    category: "Gerenciamiento de Proyecto",
+    images: [
+      "./velociudad_1.jpg",
+      "./velociudad_2.jpg",
+      "./velociudad_3.jpg",
+      "./velociudad_4.jpg",
+      "./velociudad_5.jpg"
+    ],
+    location: "Zárate, Provincia de Buenos Aires",
+    area: "60 ha / 4.7 km trazado",
+    year: "2012",
+    client: "Desarrollo Automovilístico / Inversión Privada",
+    description: "Servicio de Gerenciamiento integral de proyecto (Project Management) para el masterplan y desarrollo del parque temático automovilístico y circuito de alta performance Velociudad Speedcity en Zárate, provincia de Buenos Aires. La labor abarcó la planificación estratégica, estudios preliminares de ingeniería y coordinación general para un complejo de escala internacional sobre un predio de 60 hectáreas, proyectado para albergar un circuito con homologación internacional FIA Grado 1, edificios de boxes, tribunas principales, áreas de paddock, hotel temático y centro de entrenamiento de manejo profesional."
   }
 };
 
