@@ -220,6 +220,22 @@ const projectsData = {
     year: "2002",
     client: "CMS",
     description: "Dirección Ejecutiva de Obra y Gerenciamiento integral para el Hotel Ibis Congreso, desarrollado para la firma CMS como comitente. Emplazado sobre la calle Hipólito Yrigoyen frente a la Plaza del Congreso en la Ciudad Autónoma de Buenos Aires, el edificio hotelero de 11 plantas cuenta con 148 habitaciones, moderno lobby de recepción con marquesina vidriada, áreas de bar y restaurante 24hs, centro de negocios y servicios de hospitalidad bajo los estándares internacionales de la marca."
+  },
+  15: {
+    title: "Agua Calma Cariló",
+    category: "Gerenciamiento & Dirección de Obra",
+    images: [
+      "./aguacalma_1.jpg",
+      "./aguacalma_2.jpg",
+      "./aguacalma_3.jpg",
+      "./aguacalma_4.jpg",
+      "./aguacalma_5.jpg"
+    ],
+    location: "Cariló, Provincia de Buenos Aires",
+    area: "3.200 m²",
+    year: "2008",
+    client: "CMS",
+    description: "Dirección Ejecutiva de Obra y Gerenciamiento integral para el complejo residencial, comercial y spa Agua Calma en Cariló, desarrollado para la firma CMS como comitente. Emplazado estratégicamente en la intersección de Boyero y Avellano inmerso en el bosque de pinos, el conjunto arquitectónico articula unidades residenciales y dúplex con parrillas individuales en terrazas privadas, galería comercial y espacio de arte en planta baja, spa con piscina climatizada in/out y solárium de deck de madera integrados a la naturaleza."
   }
 };
 
