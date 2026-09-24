@@ -96,8 +96,8 @@ const projectsData = {
     location: "Núñez, CABA, Argentina",
     area: "2.400 m²",
     year: "2025",
-    client: "Desarrollo Residencial",
-    description: "Dirección de Obra ejecutiva y Gerenciamiento integral para el edificio residencial de viviendas Ugarte 1515, ubicado en el barrio de Núñez, Ciudad Autónoma de Buenos Aires. El proyecto cuenta con exclusivas unidades residenciales, subsuelo de cocheras y un completo sector de amenities que incluye piscina con solárium de deck de madera, gimnasio vidriado, SUM y áreas parquizadas exteriores."
+    client: "Soldati",
+    description: "Dirección de Obra ejecutiva y Gerenciamiento integral para el edificio residencial de viviendas Ugarte 1515 de Soldati, ubicado en el barrio de Núñez, Ciudad Autónoma de Buenos Aires. El proyecto cuenta con exclusivas unidades residenciales, subsuelo de cocheras y un completo sector de amenities que incluye piscina con solárium de deck de madera, gimnasio vidriado, SUM y áreas parquizadas exteriores."
   },
   7: {
     title: "QIUB",
@@ -144,8 +144,8 @@ const projectsData = {
     location: "Villa Traful, Neuquén",
     area: "2.800 m²",
     year: "2022",
-    client: "Desarrollo Hotelero / Inversión Privada",
-    description: "Gerenciamiento integral de proyecto (Project Management) para el complejo hotelero y glamping Hotel Villa Traful en la Patagonia Argentina. La intervención abarcó la planificación estratégica, supervisión técnica y coordinación general para el edificio principal de arquitectura contemporánea integrado al bosque andino-patagónico, imponente lobby y recepción con revestimientos en madera, suites ejecutivas con hogares a leña suspendidos y domos geodésicos sobre plataformas elevadas con vistas panorámicas a la cordillera."
+    client: "Tándem Hoteles",
+    description: "Gerenciamiento integral de proyecto (Project Management) para el complejo hotelero y glamping Hotel Villa Traful de Tándem Hoteles en la Patagonia Argentina. La intervención abarcó la planificación estratégica, supervisión técnica y coordinación general para el edificio principal de arquitectura contemporánea integrado al bosque andino-patagónico, imponente lobby y recepción con revestimientos en madera, suites ejecutivas con hogares a leña suspendidos y domos geodésicos sobre plataformas elevadas con vistas panorámicas a la cordillera."
   },
   10: {
     title: "Hotel Rada Tilly",
@@ -160,8 +160,8 @@ const projectsData = {
     location: "Rada Tilly, Chubut",
     area: "3.400 m²",
     year: "2021",
-    client: "Inversión Privada / Estudio Brand Arquitectura",
-    description: "Gerenciamiento integral de proyecto (Project Management) para el exclusivo complejo hotelero Hotel Rada Tilly, emplazado sobre la ladera natural de la montaña en la villa balnearia de Rada Tilly, Chubut. Proyectado por el prestigioso estudio Brand Arquitectura, la labor comprendió la planificación técnica, supervisión ejecutiva y coordinación general de contratistas para una arquitectura de vanguardia que integra terrazas voladizas sobre columnas de hormigón, piscina sinfín (infinity pool) suspendida, muros de piedra regional, suites con vistas abiertas y un amplio lobby central con chimenea lineal y sector de lounge."
+    client: "Tándem Hoteles / Estudio Brand Arquitectura",
+    description: "Gerenciamiento integral de proyecto (Project Management) para el exclusivo complejo hotelero Hotel Rada Tilly de Tándem Hoteles, emplazado sobre la ladera natural de la montaña en la villa balnearia de Rada Tilly, Chubut. Proyectado por el prestigioso estudio Brand Arquitectura, la labor comprendió la planificación técnica, supervisión ejecutiva y coordinación general de contratistas para una arquitectura de vanguardia que integra terrazas voladizas sobre columnas de hormigón, piscina sinfín (infinity pool) suspendida, muros de piedra regional, suites con vistas abiertas y un amplio lobby central con chimenea lineal y sector de lounge."
   },
   11: {
     title: "Velociudad Speedcity",
