@@ -175,6 +175,22 @@ const projectsData = {
     year: "2012",
     client: "Desarrollo Automovilístico / Inversión Privada",
     description: "Servicio de Gerenciamiento integral de proyecto (Project Management) para el masterplan y desarrollo del parque temático automovilístico y circuito de alta performance Velociudad Speedcity en Zárate, provincia de Buenos Aires. La labor abarcó la planificación estratégica, estudios preliminares de ingeniería y coordinación general para un complejo de escala internacional sobre un predio de 60 hectáreas, proyectado para albergar un circuito con homologación internacional FIA Grado 1, edificios de boxes, tribunas principales, áreas de paddock, hotel temático y centro de entrenamiento de manejo profesional."
+  },
+  12: {
+    title: "Edificio Corporativo Baufest",
+    category: "Gerenciamiento & Dirección de Obra",
+    images: [
+      "./baufest_1.jpg",
+      "./baufest_2.jpg",
+      "./baufest_3.jpg",
+      "./baufest_4.jpg",
+      "./baufest_5.jpg"
+    ],
+    location: "Belgrano, CABA, Argentina",
+    area: "1.600 m²",
+    year: "2009",
+    client: "Baufest (Software & IT Consulting)",
+    description: "Gerenciamiento integral (Project Management) y Dirección Ejecutiva de Obra para la sede corporativa de la destacada compañía internacional de desarrollo de software y servicios IT Baufest, en el barrio de Belgrano, CABA. La intervención abarcó la remodelación y adecuación edilicia completa, articulando un atrio central de doble altura con iluminación natural cenital y muro geométrico neoplasticista, áreas de trabajo colaborativo open-office para ingeniería de software, salas de reuniones ejecutivas, sector de recepción y lounge con diseño de autor y modernización de infraestructura técnica."
   }
 };
 
