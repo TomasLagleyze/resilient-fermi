@@ -191,6 +191,21 @@ const projectsData = {
     year: "2009",
     client: "Baufest (Software & IT Consulting)",
     description: "Gerenciamiento integral (Project Management) y Dirección Ejecutiva de Obra para la sede corporativa de la destacada compañía internacional de desarrollo de software y servicios IT Baufest, en el barrio de Belgrano, CABA. La intervención abarcó la remodelación y adecuación edilicia completa, articulando un atrio central de doble altura con iluminación natural cenital y muro geométrico neoplasticista, áreas de trabajo colaborativo open-office para ingeniería de software, salas de reuniones ejecutivas, sector de recepción y lounge con diseño de autor y modernización de infraestructura técnica."
+  },
+  13: {
+    title: "Hotel San Salvador de Jujuy",
+    category: "Gerenciamiento de Proyecto",
+    images: [
+      "./jujuy_1.jpg",
+      "./jujuy_2.jpg",
+      "./jujuy_3.jpg",
+      "./jujuy_4.jpg"
+    ],
+    location: "San Salvador de Jujuy, Jujuy",
+    area: "3.800 m²",
+    year: "2024",
+    client: "Inversión Privada / Estudio Brand Arquitectura",
+    description: "Gerenciamiento integral de proyecto (Project Management) para el desarrollo del exclusivo complejo hotelero emplazado sobre la ladera natural en San Salvador de Jujuy. Con proyecto del estudio Brand Arquitectura, la intervención comprendió la planificación técnica, análisis de implantación y coordinación general para una arquitectura bioclimática escalonada que incorpora muros de contención de piedra pirca regional, cubiertas verdes con flora autóctona, puente peatonal curvo de madera para el acceso principal, sector de plaza con esculturas de autor y suites aterrazadas con vistas panorámicas a las montañas."
   }
 };
 
