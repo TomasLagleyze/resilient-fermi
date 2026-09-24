@@ -204,8 +204,8 @@ const projectsData = {
     location: "San Salvador de Jujuy, Jujuy",
     area: "3.800 m²",
     year: "2024",
-    client: "Inversión Privada / Estudio Brand Arquitectura",
-    description: "Gerenciamiento integral de proyecto (Project Management) para el desarrollo del exclusivo complejo hotelero emplazado sobre la ladera natural en San Salvador de Jujuy. Con proyecto del estudio Brand Arquitectura, la intervención comprendió la planificación técnica, análisis de implantación y coordinación general para una arquitectura bioclimática escalonada que incorpora muros de contención de piedra pirca regional, cubiertas verdes con flora autóctona, puente peatonal curvo de madera para el acceso principal, sector de plaza con esculturas de autor y suites aterrazadas con vistas panorámicas a las montañas."
+    client: "Tándem Hoteles / Estudio Brand Arquitectura",
+    description: "Gerenciamiento integral de proyecto (Project Management) para el desarrollo del exclusivo complejo hotelero de Tándem Hoteles, emplazado sobre la ladera natural en San Salvador de Jujuy. Con proyecto del estudio Brand Arquitectura, la intervención comprendió la planificación técnica, análisis de implantación y coordinación general para una arquitectura bioclimática escalonada que incorpora muros de contención de piedra pirca regional, cubiertas verdes con flora autóctona, puente peatonal curvo de madera para el acceso principal, sector de plaza con esculturas de autor y suites aterrazadas con vistas panorámicas a las montañas."
   }
 };
 
