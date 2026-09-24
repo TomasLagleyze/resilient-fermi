@@ -206,6 +206,20 @@ const projectsData = {
     year: "2024",
     client: "Tándem Hoteles / Estudio Brand Arquitectura",
     description: "Gerenciamiento integral de proyecto (Project Management) para el desarrollo del exclusivo complejo hotelero de Tándem Hoteles, emplazado sobre la ladera natural en San Salvador de Jujuy. Con proyecto del estudio Brand Arquitectura, la intervención comprendió la planificación técnica, análisis de implantación y coordinación general para una arquitectura bioclimática escalonada que incorpora muros de contención de piedra pirca regional, cubiertas verdes con flora autóctona, puente peatonal curvo de madera para el acceso principal, sector de plaza con esculturas de autor y suites aterrazadas con vistas panorámicas a las montañas."
+  },
+  14: {
+    title: "Hotel Ibis Congreso",
+    category: "Gerenciamiento & Dirección de Obra",
+    images: [
+      "./ibis_1.jpg",
+      "./ibis_2.jpg",
+      "./ibis_3.jpg"
+    ],
+    location: "Congreso, CABA, Argentina",
+    area: "5.500 m² / 148 habitaciones",
+    year: "2002",
+    client: "CMS",
+    description: "Dirección Ejecutiva de Obra y Gerenciamiento integral para el Hotel Ibis Congreso, desarrollado para la firma CMS como comitente. Emplazado sobre la calle Hipólito Yrigoyen frente a la Plaza del Congreso en la Ciudad Autónoma de Buenos Aires, el edificio hotelero de 11 plantas cuenta con 148 habitaciones, moderno lobby de recepción con marquesina vidriada, áreas de bar y restaurante 24hs, centro de negocios y servicios de hospitalidad bajo los estándares internacionales de la marca."
   }
 };
 
