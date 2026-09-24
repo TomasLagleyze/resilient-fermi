@@ -168,10 +168,7 @@ const projectsData = {
     category: "Gerenciamiento de Proyecto",
     images: [
       "./velociudad_1.jpg",
-      "./velociudad_2.jpg",
-      "./velociudad_3.jpg",
-      "./velociudad_4.jpg",
-      "./velociudad_5.jpg"
+      "./velociudad_2.jpg"
     ],
     location: "Zárate, Provincia de Buenos Aires",
     area: "60 ha / 4.7 km trazado",
