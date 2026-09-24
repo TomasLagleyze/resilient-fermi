@@ -236,6 +236,21 @@ const projectsData = {
     year: "2008",
     client: "CMS",
     description: "Servicios profesionales de Dirección Ejecutiva de Obra y Gerenciamiento integral realizados para la firma CMS como comitente en el complejo residencial, comercial y spa Agua Calma en Cariló. Emplazado estratégicamente en la intersección de Boyero y Avellano inmerso en el bosque de pinos, el conjunto arquitectónico articula unidades residenciales y dúplex con parrillas individuales en terrazas privadas, galería comercial y espacio de arte en planta baja, spa con piscina climatizada in/out y solárium de deck de madera integrados a la naturaleza."
+  },
+  16: {
+    title: "Hotel Sofitel Recoleta",
+    category: "Gerenciamiento & Dirección de Obra",
+    images: [
+      "./sofitel_1.jpg",
+      "./sofitel_2.jpg",
+      "./sofitel_3.jpg",
+      "./sofitel_4.jpg"
+    ],
+    location: "Recoleta / Retiro, CABA, Argentina",
+    area: "13.700 m² / 140 habitaciones",
+    year: "2003",
+    client: "CMS",
+    description: "Servicios profesionales de Dirección Ejecutiva de Obra y Gerenciamiento integral realizados para la firma CMS como comitente en el emblemático Hotel Sofitel Buenos Aires (Edificio Mihanovich), en el barrio de Recoleta. La intervención de gran envergadura patrimonial comprendió la remodelación y puesta en valor de 13.700 m² para un hotel de lujo de 140 habitaciones y suites de alta gama, restauración de la imponente fachada y marquesina histórica, restaurante gourmet, bar de autor, spa, business center y piscina climatizada interior bajo claraboya cenital."
   }
 };
 
