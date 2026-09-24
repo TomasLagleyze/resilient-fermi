@@ -219,7 +219,7 @@ const projectsData = {
     area: "5.500 m² / 148 habitaciones",
     year: "2002",
     client: "CMS",
-    description: "Dirección Ejecutiva de Obra y Gerenciamiento integral para el Hotel Ibis Congreso, desarrollado para la firma CMS como comitente. Emplazado sobre la calle Hipólito Yrigoyen frente a la Plaza del Congreso en la Ciudad Autónoma de Buenos Aires, el edificio hotelero de 11 plantas cuenta con 148 habitaciones, moderno lobby de recepción con marquesina vidriada, áreas de bar y restaurante 24hs, centro de negocios y servicios de hospitalidad bajo los estándares internacionales de la marca."
+    description: "Servicios profesionales de Dirección Ejecutiva de Obra y Gerenciamiento integral realizados para la firma CMS como comitente en el Hotel Ibis Congreso. Emplazado sobre la calle Hipólito Yrigoyen frente a la Plaza del Congreso en la Ciudad Autónoma de Buenos Aires, el edificio hotelero de 11 plantas cuenta con 148 habitaciones, moderno lobby de recepción con marquesina vidriada, áreas de bar y restaurante 24hs, centro de negocios y servicios de hospitalidad bajo los estándares internacionales de la marca."
   },
   15: {
     title: "Agua Calma Cariló",
@@ -235,7 +235,7 @@ const projectsData = {
     area: "3.200 m²",
     year: "2008",
     client: "CMS",
-    description: "Dirección Ejecutiva de Obra y Gerenciamiento integral para el complejo residencial, comercial y spa Agua Calma en Cariló, desarrollado para la firma CMS como comitente. Emplazado estratégicamente en la intersección de Boyero y Avellano inmerso en el bosque de pinos, el conjunto arquitectónico articula unidades residenciales y dúplex con parrillas individuales en terrazas privadas, galería comercial y espacio de arte en planta baja, spa con piscina climatizada in/out y solárium de deck de madera integrados a la naturaleza."
+    description: "Servicios profesionales de Dirección Ejecutiva de Obra y Gerenciamiento integral realizados para la firma CMS como comitente en el complejo residencial, comercial y spa Agua Calma en Cariló. Emplazado estratégicamente en la intersección de Boyero y Avellano inmerso en el bosque de pinos, el conjunto arquitectónico articula unidades residenciales y dúplex con parrillas individuales en terrazas privadas, galería comercial y espacio de arte en planta baja, spa con piscina climatizada in/out y solárium de deck de madera integrados a la naturaleza."
   }
 };
 
