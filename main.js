@@ -12,7 +12,8 @@ const projectsData = {
       "./ugarte_2.jpg",
       "./ugarte_3.jpg",
       "./ugarte_4.jpg",
-      "./ugarte_5.jpg"
+      "./ugarte_5.jpg",
+      "./ugarte_6.jpg"
     ],
     location: "Núñez, CABA",
     area: "6.000 m²",
