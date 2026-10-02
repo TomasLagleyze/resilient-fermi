@@ -577,7 +577,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const mapContainer = document.getElementById("map-container");
     if (!mapContainer) return;
 
-    // Coordenadas reales de la oficina: Franklin D. Roosevelt 1643, Belgrano, CABA
+    // Coordenadas reales de la oficina: Franklin D. Roosevelt 1655, Belgrano, CABA
     const latlng = [-34.5529249, -58.4533591];
     
     // Crear mapa y centrarlo
@@ -616,7 +616,7 @@ document.addEventListener("DOMContentLoaded", () => {
       .bindPopup(`
         <div style="font-family: var(--font-sans); padding: 5px; text-align: center;">
           <strong style="color: var(--color-black); text-transform: uppercase; font-size: 13px; display: block; margin-bottom: 2px;">Estudio LAGLEYZE</strong>
-          <span style="color: var(--color-grey); font-size: 11px; display: block; margin-bottom: 8px;">Franklin D. Roosevelt 1643, Belgrano, CABA</span>
+          <span style="color: var(--color-grey); font-size: 11px; display: block; margin-bottom: 8px;">Franklin D. Roosevelt 1655, Belgrano, CABA</span>
           <a href="https://maps.app.goo.gl/unajrTta2tf7A36t5" target="_blank" style="
             display: inline-block;
             background-color: var(--color-orange);
