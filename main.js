@@ -17,7 +17,6 @@ const projectsData = {
     ],
     location: "Núñez, CABA",
     area: "6.000 m²",
-    year: "2024",
     architect: "BMA ARQS",
     description: "Dirección ejecutiva de obra y gerenciamiento integral para el edificio residencial Garda Ugarte ubicado en el barrio de Núñez, CABA. El proyecto cuenta con exclusivas unidades residenciales, cocheras en subsuelo y un completo sector de amenities que incluye piscina con solárium de deck, gimnasio vidriado, SUM y áreas parquizadas exteriores."
   },
@@ -33,7 +32,6 @@ const projectsData = {
     ],
     location: "Palermo, CABA",
     area: "38.000 m²",
-    year: "2025",
     architect: "BMA ARQS",
     description: "Dirección de obra ejecutiva y gerenciamiento integral para el emblemático complejo de usos mixtos QIUB, ubicado en el corazón de Palermo Hollywood (Av. Juan B. Justo y Honduras). El desarrollo de gran escala integra una torre de oficinas corporativas de vanguardia, residencias exclusivas, basamento comercial, salas de cine, patio gastronómico y subsuelos de cocheras."
   },
@@ -49,7 +47,6 @@ const projectsData = {
     ],
     location: "Palermo, CABA",
     area: "1.500 m²",
-    year: "2024",
     architect: "ESCARRA PRADIER ARQS",
     description: "Gerenciamiento integral y dirección ejecutiva de obra para el edificio residencial Más Cabrera en el barrio de Palermo, CABA. El desarrollo comprende unidades residenciales de diseño contemporáneo, supervisión técnica en terreno, control de presupuesto y plazos de ejecución, coordinación de contratistas y supervisión de terminaciones arquitectónicas e instalaciones."
   },
@@ -64,7 +61,6 @@ const projectsData = {
     ],
     location: "San Salvador de Jujuy",
     area: "4.000 m²",
-    year: "2024",
     architect: "LM / BRAND ARQS",
     description: "Gerenciamiento integral de proyecto para el exclusivo complejo hotelero boutique de Tándem Hoteles en San Salvador de Jujuy. La intervención comprendió la planificación técnica, análisis de implantación y coordinación general para una arquitectura bioclimática escalonada sobre ladera natural, con muros de piedra pirca regional, cubiertas verdes, plaza de acceso y suites aterrazadas con vistas panorámicas."
   },
@@ -78,7 +74,6 @@ const projectsData = {
     ],
     location: "Colegiales, CABA",
     area: "13.000 m²",
-    year: "2024",
     architect: "BAUDIZZONE LESTARD",
     description: "Gerenciamiento integral y dirección ejecutiva de obra para el importante conjunto residencial Garda Olleros en Colegiales, CABA. El proyecto comprende amplias unidades residenciales de gran categoría, diseño arquitectónico de vanguardia, parque central ajardinado, piscinas, gimnasio, salón de usos múltiples y cocheras en subsuelo."
   },
@@ -94,7 +89,6 @@ const projectsData = {
     ],
     location: "Villa Traful, Neuquén",
     area: "2.500 m²",
-    year: "2022",
     architect: "RUL ARQS",
     description: "Gerenciamiento integral de proyecto para el complejo hotelero boutique y domos geodésicos de Tándem Hoteles en Villa Traful, Patagonia Argentina. La intervención abarcó la planificación estratégica, supervisión técnica y coordinación general para el edificio principal integrado al bosque nativo, recepción con revestimientos en madera, suites ejecutivas y domos sobre plataformas elevadas con vistas a la cordillera."
   },
@@ -109,7 +103,6 @@ const projectsData = {
     ],
     location: "Pilar, Prov. Bs. As.",
     area: "6.500 m²",
-    year: "2019",
     architect: "MO / SHULZ ARQS",
     description: "Gerenciamiento integral y dirección ejecutiva de obra para el centro de eventos y convenciones Darwin Tortugas en Pilar. La obra comprendió la construcción del salón principal vidriado de gran altura, recepción integrada con terraza panorámica, infraestructura de servicios gastronómicos, climatización central, paisajismo perimetral y coordinación integral de contratistas."
   },
@@ -125,7 +118,6 @@ const projectsData = {
     ],
     location: "Rada Tilly, Chubut",
     area: "5.500 m²",
-    year: "2021",
     architect: "LM / BRAND ARQS",
     description: "Gerenciamiento integral de proyecto para el exclusivo hotel boutique La Calera en Rada Tilly, emplazado sobre la ladera natural frente al mar. La labor abarcó la planificación técnica, supervisión ejecutiva y coordinación general para una arquitectura de vanguardia en hormigón visto y piedra regional, terrazas voladizas, piscina suspendida infinity y suites con vistas panorámicas al océano."
   },
@@ -141,7 +133,6 @@ const projectsData = {
     ],
     location: "Montevideo, Uruguay",
     area: "6.000 m²",
-    year: "2017",
     architect: "HERRERA LUSSICH ARQS",
     description: "Gerenciamiento integral y dirección ejecutiva de obra para el complejo hotelero Howard Johnson Carrasco en Montevideo, Uruguay. La obra abarcó el desarrollo edilicio frente al lago, habitaciones ejecutivas con vistas panorámicas, piscina exterior con solárium y decks de madera sobre el espejo de agua, áreas comunes, restaurante y parquización de entorno."
   },
@@ -156,7 +147,6 @@ const projectsData = {
     ],
     location: "Belgrano, CABA",
     area: "400 m²",
-    year: "2014",
     architect: "ADAMO FAIDEN ARQS",
     description: "Dirección de obra ejecutiva y gerenciamiento integral para la residencia unifamiliar Casa Arribeños en el barrio de Belgrano, CABA. La intervención comprendió la ejecución y coordinación técnica de fachada urbana translúcida, articulación de niveles interiores con escaleras de madera, grandes ventanales hacia el patio ajardinado, biblioteca integral y carpinterías de alta prestación."
   },
@@ -169,7 +159,6 @@ const projectsData = {
     ],
     location: "Zárate, Prov. Bs. As.",
     area: "63 has",
-    year: "2012",
     architect: "POPULOUS (UK)",
     description: "Gerenciamiento integral de proyecto para el masterplan y parque automovilístico Velociudad Speedcity en Zárate, provincia de Buenos Aires. La labor abarcó la planificación estratégica, estudios preliminares de ingeniería y coordinación general para un complejo de escala internacional sobre un predio de 63 hectáreas proyectado con homologación FIA Grado 1, edificios de boxes, tribunas, paddock y centro de entrenamiento de manejo."
   },
@@ -185,7 +174,6 @@ const projectsData = {
     ],
     location: "Cariló, Prov. Bs. As.",
     area: "7.500 m²",
-    year: "2008",
     architect: "CMS ARQS",
     description: "Servicios profesionales de dirección ejecutiva de obra y gerenciamiento integral realizados para CMS en el complejo residencial, comercial y spa Aguacalma en Cariló. Emplazado en Boyero y Avellano inmerso en el bosque de pinos, el conjunto articula unidades residenciales con terrazas privadas y parrillas, galería comercial, espacio de arte, spa con piscina climatizada in/out y solárium de deck integrado a la naturaleza."
   },
@@ -201,7 +189,6 @@ const projectsData = {
     ],
     location: "Barrio Parque, CABA",
     area: "12.500 m²",
-    year: "2006",
     architect: "AFT ARQS",
     description: "Dirección ejecutiva de obra y gerenciamiento integral para la emblemática torre residencial Grand Bourg sobre Av. Figueroa Alcorta en Barrio Parque / Palermo Chico. Proyectada por el prestigioso estudio AFT, la torre de inspiración academicista francesa de 15 niveles alberga residencias de ultra lujo, imponente lobby en mármol de doble altura, subsuelos de cocheras, jardines privados y amenities premium."
   },
@@ -217,7 +204,6 @@ const projectsData = {
     ],
     location: "Belgrano, CABA",
     area: "1.500 m²",
-    year: "2009",
     architect: "LAGLEYZE ARQS.",
     description: "Gerenciamiento integral, dirección ejecutiva de obra y proyecto para la sede corporativa de la compañía internacional de desarrollo IT Baufest, en Belgrano, CABA. La intervención abarcó la remodelación y adecuación edilicia completa, articulando un atrio central de doble altura con iluminación cenital y muro geométrico neoplasticista, áreas open-office de trabajo colaborativo, salas de reuniones ejecutivas y recepción de autor."
   },
@@ -234,7 +220,6 @@ const projectsData = {
     ],
     location: "Recoleta, CABA",
     area: "1.500 m²",
-    year: "2009",
     architect: "HEUSCH ARQS (USA)",
     description: "Gerenciamiento integral y dirección ejecutiva de obra para la restauración patrimonial y remodelación de alta gama de Algodón Mansion en Recoleta. La intervención abarcó la preservación de la fachada neoclásica francesa, acondicionamiento de suites de lujo, restauración del lounge bar con ónix retroiluminado, atrio central y rooftop deck con piscina panorámica."
   },
@@ -249,7 +234,6 @@ const projectsData = {
     ],
     location: "Retiro, CABA",
     area: "14.000 m²",
-    year: "2003",
     architect: "DF&A ARQS",
     description: "Servicios profesionales de dirección ejecutiva de obra y gerenciamiento integral realizados para CMS en el emblemático Hotel Sofitel Buenos Aires (Edificio Mihanovich) en Retiro. La intervención patrimonial de gran envergadura comprendió la remodelación y puesta en valor de 14.000 m² para un hotel de 5 estrellas con 140 habitaciones, restauración de fachada y marquesina histórica, restaurante gourmet, bar de autor, spa, business center y piscina climatizada interior."
   },
@@ -263,7 +247,6 @@ const projectsData = {
     ],
     location: "Congreso, CABA",
     area: "6.500 m²",
-    year: "2002",
     architect: "DF&A ARQS",
     description: "Servicios profesionales de dirección ejecutiva de obra y gerenciamiento integral realizados para CMS en el Hotel Ibis Congreso. Emplazado sobre Hipólito Yrigoyen frente a la Plaza Congreso en CABA, el edificio hotelero de 11 plantas cuenta con 148 habitaciones, recepción con marquesina vidriada, áreas de bar y restaurante 24hs, centro de negocios y servicios de hospitalidad bajo estándares internacionales."
   },
@@ -275,7 +258,6 @@ const projectsData = {
     ],
     location: "Puerto Madero, CABA",
     area: "45.000 m²",
-    year: "2001",
     architect: "RBVP / SEPRA ARQS",
     description: "Gerenciamiento integral y dirección ejecutiva de obra para el complejo corporativo Puerto Viamonte en Puerto Madero, CABA. El conjunto de 45.000 m² de oficinas AAA y locales comerciales se emplaza en la ribera porteña, destacándose por su calidad constructiva, fachadas vidriadas de alta eficiencia, subsuelos técnicos y estándares corporativos internacionales."
   }
@@ -497,10 +479,6 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="meta-item">
             <h5>Superficie</h5>
             <p>${project.area}</p>
-          </div>
-          <div class="meta-item">
-            <h5>Año</h5>
-            <p>${project.year}</p>
           </div>
           <div class="meta-item">
             <h5>Proyecto</h5>
