@@ -18,7 +18,7 @@ const projectsData = {
     location: "Núñez, CABA",
     area: "6.000 m²",
     architect: "BMA ARQS",
-    description: "Dirección ejecutiva de obra y gerenciamiento integral para el edificio residencial Garda Ugarte ubicado en el barrio de Núñez, CABA. El proyecto cuenta con exclusivas unidades residenciales, cocheras en subsuelo y un completo sector de amenities que incluye piscina con solárium de deck, gimnasio vidriado, SUM y áreas parquizadas exteriores."
+    description: "Dirección de obra y gerenciamiento integral para el edificio residencial Garda Ugarte ubicado en el barrio de Núñez, CABA. El proyecto cuenta con exclusivas unidades residenciales, cocheras en subsuelo y un completo sector de amenities que incluye piscina con solárium de deck, gimnasio vidriado, SUM y áreas parquizadas exteriores."
   },
   2: {
     title: "QIUB",
@@ -33,7 +33,7 @@ const projectsData = {
     location: "Palermo, CABA",
     area: "38.000 m²",
     architect: "BMA ARQS",
-    description: "Dirección de obra ejecutiva y gerenciamiento integral para el emblemático complejo de usos mixtos QIUB, ubicado en el corazón de Palermo Hollywood (Av. Juan B. Justo y Honduras). El desarrollo de gran escala integra una torre de oficinas corporativas de vanguardia, residencias exclusivas, basamento comercial, salas de cine, patio gastronómico y subsuelos de cocheras."
+    description: "Dirección de obra y gerenciamiento integral para el emblemático complejo de usos mixtos QIUB, ubicado en el corazón de Palermo Hollywood (Av. Juan B. Justo y Honduras). El desarrollo de gran escala integra una torre de oficinas corporativas de vanguardia, residencias exclusivas, basamento comercial, salas de cine, patio gastronómico y subsuelos de cocheras."
   },
   3: {
     title: "MAS CABRERA",
@@ -48,7 +48,7 @@ const projectsData = {
     location: "Palermo, CABA",
     area: "1.500 m²",
     architect: "ESCARRA PRADIER ARQS",
-    description: "Gerenciamiento integral y dirección ejecutiva de obra para el edificio residencial Más Cabrera en el barrio de Palermo, CABA. El desarrollo comprende unidades residenciales de diseño contemporáneo, supervisión técnica en terreno, control de presupuesto y plazos de ejecución, coordinación de contratistas y supervisión de terminaciones arquitectónicas e instalaciones."
+    description: "Gerenciamiento integral y dirección de obra para el edificio residencial Más Cabrera en el barrio de Palermo, CABA. El desarrollo comprende unidades residenciales de diseño contemporáneo, supervisión técnica en terreno, control de presupuesto y plazos de ejecución, coordinación de contratistas y supervisión de terminaciones arquitectónicas e instalaciones."
   },
   4: {
     title: "TANDEM JUJUY",
@@ -75,7 +75,7 @@ const projectsData = {
     location: "Colegiales, CABA",
     area: "13.000 m²",
     architect: "BAUDIZZONE LESTARD",
-    description: "Gerenciamiento integral y dirección ejecutiva de obra para el importante conjunto residencial Garda Olleros en Colegiales, CABA. El proyecto comprende amplias unidades residenciales de gran categoría, diseño arquitectónico de vanguardia, parque central ajardinado, piscinas, gimnasio, salón de usos múltiples y cocheras en subsuelo."
+    description: "Gerenciamiento integral y dirección de obra para el importante conjunto residencial Garda Olleros en Colegiales, CABA. El proyecto comprende amplias unidades residenciales de gran categoría, diseño arquitectónico de vanguardia, parque central ajardinado, piscinas, gimnasio, salón de usos múltiples y cocheras en subsuelo."
   },
   6: {
     title: "TANDEM TRAFUL",
@@ -90,7 +90,7 @@ const projectsData = {
     location: "Villa Traful, Neuquén",
     area: "2.500 m²",
     architect: "RUL ARQS",
-    description: "Gerenciamiento integral de proyecto para el complejo hotelero boutique y domos geodésicos de Tándem Hoteles en Villa Traful, Patagonia Argentina. La intervención abarcó la planificación estratégica, supervisión técnica y coordinación general para el edificio principal integrado al bosque nativo, recepción con revestimientos en madera, suites ejecutivas y domos sobre plataformas elevadas con vistas a la cordillera."
+    description: "Gerenciamiento integral de proyecto para el complejo hotelero boutique y domos geodésicos de Tándem Hoteles en Villa Traful, Patagonia Argentina. La intervención abarcó la planificación estratégica, supervisión técnica y coordinación general para el edificio principal integrado al bosque nativo, recepción con revestimientos en madera, suites y domos sobre plataformas elevadas con vistas a la cordillera."
   },
   7: {
     title: "DARWIN TORTUGAS",
@@ -104,7 +104,7 @@ const projectsData = {
     location: "Pilar, Prov. Bs. As.",
     area: "6.500 m²",
     architect: "MO / SHULZ ARQS",
-    description: "Gerenciamiento integral y dirección ejecutiva de obra para el centro de eventos y convenciones Darwin Tortugas en Pilar. La obra comprendió la construcción del salón principal vidriado de gran altura, recepción integrada con terraza panorámica, infraestructura de servicios gastronómicos, climatización central, paisajismo perimetral y coordinación integral de contratistas."
+    description: "Gerenciamiento integral y dirección de obra para el centro de eventos y convenciones Darwin Tortugas en Pilar. La obra comprendió la construcción del salón principal vidriado de gran altura, recepción integrada con terraza panorámica, infraestructura de servicios gastronómicos, climatización central, paisajismo perimetral y coordinación integral de contratistas."
   },
   8: {
     title: "LA CALERA RADA TILLY",
@@ -119,7 +119,7 @@ const projectsData = {
     location: "Rada Tilly, Chubut",
     area: "5.500 m²",
     architect: "LM / BRAND ARQS",
-    description: "Gerenciamiento integral de proyecto para el exclusivo hotel boutique La Calera en Rada Tilly, emplazado sobre la ladera natural frente al mar. La labor abarcó la planificación técnica, supervisión ejecutiva y coordinación general para una arquitectura de vanguardia en hormigón visto y piedra regional, terrazas voladizas, piscina suspendida infinity y suites con vistas panorámicas al océano."
+    description: "Gerenciamiento integral de proyecto para el exclusivo hotel boutique La Calera en Rada Tilly, emplazado sobre la ladera natural frente al mar. La labor abarcó la planificación técnica, supervisión técnica y coordinación general para una arquitectura de vanguardia en hormigón visto y piedra regional, terrazas voladizas, piscina suspendida infinity y suites con vistas panorámicas al océano."
   },
   9: {
     title: "HOWARD JOHNSON CARRASCO",
@@ -134,7 +134,7 @@ const projectsData = {
     location: "Montevideo, Uruguay",
     area: "6.000 m²",
     architect: "HERRERA LUSSICH ARQS",
-    description: "Gerenciamiento integral y dirección ejecutiva de obra para el complejo hotelero Howard Johnson Carrasco en Montevideo, Uruguay. La obra abarcó el desarrollo edilicio frente al lago, habitaciones ejecutivas con vistas panorámicas, piscina exterior con solárium y decks de madera sobre el espejo de agua, áreas comunes, restaurante y parquización de entorno."
+    description: "Gerenciamiento integral y dirección de obra para el complejo hotelero Howard Johnson Carrasco en Montevideo, Uruguay. La obra abarcó el desarrollo edilicio frente al lago, habitaciones con vistas panorámicas, piscina exterior con solárium y decks de madera sobre el espejo de agua, áreas comunes, restaurante y parquización de entorno."
   },
   10: {
     title: "CASA ARRIBEÑOS",
@@ -148,7 +148,7 @@ const projectsData = {
     location: "Belgrano, CABA",
     area: "400 m²",
     architect: "ADAMO FAIDEN ARQS",
-    description: "Dirección de obra ejecutiva y gerenciamiento integral para la residencia unifamiliar Casa Arribeños en el barrio de Belgrano, CABA. La intervención comprendió la ejecución y coordinación técnica de fachada urbana translúcida, articulación de niveles interiores con escaleras de madera, grandes ventanales hacia el patio ajardinado, biblioteca integral y carpinterías de alta prestación."
+    description: "Dirección de obra y gerenciamiento integral para la residencia unifamiliar Casa Arribeños en el barrio de Belgrano, CABA. La intervención comprendió la ejecución y coordinación técnica de fachada urbana translúcida, articulación de niveles interiores con escaleras de madera, grandes ventanales hacia el patio ajardinado, biblioteca integral y carpinterías de alta prestación."
   },
   11: {
     title: "VELOCIUDAD",
@@ -175,7 +175,7 @@ const projectsData = {
     location: "Cariló, Prov. Bs. As.",
     area: "7.500 m²",
     architect: "CMS ARQS",
-    description: "Servicios profesionales de dirección ejecutiva de obra y gerenciamiento integral realizados para CMS en el complejo residencial, comercial y spa Aguacalma en Cariló. Emplazado en Boyero y Avellano inmerso en el bosque de pinos, el conjunto articula unidades residenciales con terrazas privadas y parrillas, galería comercial, espacio de arte, spa con piscina climatizada in/out y solárium de deck integrado a la naturaleza."
+    description: "Servicios profesionales de dirección de obra y gerenciamiento integral realizados para CMS en el complejo residencial, comercial y spa Aguacalma en Cariló. Emplazado en Boyero y Avellano inmerso en el bosque de pinos, el conjunto articula unidades residenciales con terrazas privadas y parrillas, galería comercial, espacio de arte, spa con piscina climatizada in/out y solárium de deck integrado a la naturaleza."
   },
   13: {
     title: "GRAND BOURG",
@@ -190,7 +190,7 @@ const projectsData = {
     location: "Barrio Parque, CABA",
     area: "12.500 m²",
     architect: "AFT ARQS",
-    description: "Dirección ejecutiva de obra y gerenciamiento integral para la emblemática torre residencial Grand Bourg sobre Av. Figueroa Alcorta en Barrio Parque / Palermo Chico. Proyectada por el prestigioso estudio AFT, la torre de inspiración academicista francesa de 15 niveles alberga residencias de ultra lujo, imponente lobby en mármol de doble altura, subsuelos de cocheras, jardines privados y amenities premium."
+    description: "Dirección de obra para AFT y gerenciamiento integral para la emblemática torre residencial Grand Bourg sobre Av. Figueroa Alcorta en Barrio Parque / Palermo Chico. Proyectada por el prestigioso estudio AFT, la torre de inspiración academicista francesa de 15 niveles alberga residencias de ultra lujo, imponente lobby en mármol de doble altura, subsuelos de cocheras, jardines privados y amenities premium."
   },
   14: {
     title: "BAUFEST",
@@ -205,7 +205,7 @@ const projectsData = {
     location: "Belgrano, CABA",
     area: "1.500 m²",
     architect: "LAGLEYZE ARQS.",
-    description: "Gerenciamiento integral, dirección ejecutiva de obra y proyecto para la sede corporativa de la compañía internacional de desarrollo IT Baufest, en Belgrano, CABA. La intervención abarcó la remodelación y adecuación edilicia completa, articulando un atrio central de doble altura con iluminación cenital y muro geométrico neoplasticista, áreas open-office de trabajo colaborativo, salas de reuniones ejecutivas y recepción de autor."
+    description: "Gerenciamiento integral, dirección de obra y proyecto para la sede corporativa de la compañía internacional de desarrollo IT Baufest, en Belgrano, CABA. La intervención abarcó la remodelación y adecuación edilicia completa, articulando un atrio central de doble altura con iluminación cenital y muro geométrico neoplasticista, áreas open-office de trabajo colaborativo, salas de reuniones y recepción de autor."
   },
   15: {
     title: "ALGODÓN MANSION",
@@ -221,7 +221,7 @@ const projectsData = {
     location: "Recoleta, CABA",
     area: "1.500 m²",
     architect: "HEUSCH ARQS (USA)",
-    description: "Gerenciamiento integral y dirección ejecutiva de obra para la restauración patrimonial y remodelación de alta gama de Algodón Mansion en Recoleta. La intervención abarcó la preservación de la fachada neoclásica francesa, acondicionamiento de suites de lujo, restauración del lounge bar con ónix retroiluminado, atrio central y rooftop deck con piscina panorámica."
+    description: "Gerenciamiento integral y dirección de obra para la restauración patrimonial y remodelación de alta gama de Algodón Mansion en Recoleta. La intervención abarcó la preservación de la fachada neoclásica francesa, acondicionamiento de suites de lujo, restauración del lounge bar con ónix retroiluminado, atrio central y rooftop deck con piscina panorámica."
   },
   16: {
     title: "SOFITEL BUENOS AIRES",
@@ -235,7 +235,7 @@ const projectsData = {
     location: "Retiro, CABA",
     area: "14.000 m²",
     architect: "DF&A ARQS",
-    description: "Servicios profesionales de dirección ejecutiva de obra y gerenciamiento integral realizados para CMS en el emblemático Hotel Sofitel Buenos Aires (Edificio Mihanovich) en Retiro. La intervención patrimonial de gran envergadura comprendió la remodelación y puesta en valor de 14.000 m² para un hotel de 5 estrellas con 140 habitaciones, restauración de fachada y marquesina histórica, restaurante gourmet, bar de autor, spa, business center y piscina climatizada interior."
+    description: "Servicios profesionales de dirección de obra y gerenciamiento integral realizados para CMS en el emblemático Hotel Sofitel Buenos Aires (Edificio Mihanovich) en Retiro. La intervención patrimonial de gran envergadura comprendió la remodelación y puesta en valor de 14.000 m² para un hotel de 5 estrellas con 140 habitaciones, restauración de fachada y marquesina histórica, restaurante gourmet, bar de autor, spa, business center y piscina climatizada interior."
   },
   17: {
     title: "IBIS CONGRESO",
@@ -248,7 +248,7 @@ const projectsData = {
     location: "Congreso, CABA",
     area: "6.500 m²",
     architect: "DF&A ARQS",
-    description: "Servicios profesionales de dirección ejecutiva de obra y gerenciamiento integral realizados para CMS en el Hotel Ibis Congreso. Emplazado sobre Hipólito Yrigoyen frente a la Plaza Congreso en CABA, el edificio hotelero de 11 plantas cuenta con 148 habitaciones, recepción con marquesina vidriada, áreas de bar y restaurante 24hs, centro de negocios y servicios de hospitalidad bajo estándares internacionales."
+    description: "Servicios profesionales de dirección de obra y gerenciamiento integral realizados para CMS en el Hotel Ibis Congreso. Emplazado sobre Hipólito Yrigoyen frente a la Plaza Congreso en CABA, el edificio hotelero de 11 plantas cuenta con 148 habitaciones, recepción con marquesina vidriada, áreas de bar y restaurante 24hs, centro de negocios y servicios de hospitalidad bajo estándares internacionales."
   },
   18: {
     title: "PUERTO VIAMONTE",
@@ -259,7 +259,7 @@ const projectsData = {
     location: "Puerto Madero, CABA",
     area: "45.000 m²",
     architect: "RBVP / SEPRA ARQS",
-    description: "Gerenciamiento integral y dirección ejecutiva de obra para el complejo corporativo Puerto Viamonte en Puerto Madero, CABA. El conjunto de 45.000 m² de oficinas AAA y locales comerciales se emplaza en la ribera porteña, destacándose por su calidad constructiva, fachadas vidriadas de alta eficiencia, subsuelos técnicos y estándares corporativos internacionales."
+    description: "Dirección de obra para RBVP / SEPRA Arqs. y gerenciamiento integral para el complejo corporativo Puerto Viamonte en Puerto Madero, CABA. El conjunto de 45.000 m² de oficinas AAA y locales comerciales se emplaza en la ribera porteña, destacándose por su calidad constructiva, fachadas vidriadas de alta eficiencia, subsuelos técnicos y estándares corporativos internacionales."
   }
 };
 
