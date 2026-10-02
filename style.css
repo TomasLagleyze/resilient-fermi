@@ -1333,25 +1333,44 @@ img {
 
 .social-icons {
   display: flex;
-  gap: 1.2rem;
+  gap: 1rem;
+  align-items: center;
 }
 
 .social-icons a {
-  width: 40px;
-  height: 40px;
+  width: 42px;
+  height: 42px;
   border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.05);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--color-grey-light);
+  color: var(--color-white);
   transition: var(--transition-fast);
+  text-decoration: none;
+}
+
+.social-icons a .social-svg,
+.social-icons a svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+  display: block;
+  transition: transform 0.25s ease;
 }
 
 .social-icons a:hover {
   border-color: var(--color-orange);
-  color: var(--color-orange);
+  background-color: var(--color-orange);
+  color: var(--color-white);
   transform: translateY(-3px);
+  box-shadow: 0 4px 15px rgba(232, 119, 34, 0.35);
+}
+
+.social-icons a:hover .social-svg,
+.social-icons a:hover svg {
+  transform: scale(1.1);
 }
 
 .footer-bottom {
