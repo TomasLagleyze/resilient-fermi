@@ -588,11 +588,11 @@ document.addEventListener("DOMContentLoaded", () => {
       zoomControl: true
     });
 
-    // Cargar capa de mapa de estilo claro minimalista (CartoDB Positron)
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-      subdomains: 'abcd',
-      maxZoom: 20
+    // Cargar capa con el fondo clásico y nítido de Google Maps (sin necesidad de API key)
+    L.tileLayer('https://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
+      maxZoom: 20,
+      subdomains: ['mt0', 'mt1', 'mt2', 'mt3'],
+      attribution: '&copy; <a href="https://maps.google.com" target="_blank">Google Maps</a>'
     }).addTo(map);
 
     // Diseñar marcador naranja personalizado
