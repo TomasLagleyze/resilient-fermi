@@ -621,247 +621,94 @@ section {
   margin-top: 1rem;
 }
 
-/* Bloque Unificado: Síntesis del Método & Nube Conceptual */
-.method-unified-container {
-  display: grid;
-  grid-template-columns: 1.15fr 0.85fr;
-  gap: 2.5rem;
-  align-items: stretch;
-  margin-bottom: 4rem;
-}
+/* ==========================================================================
+   MANIFIESTO TIPOGRÁFICO SIN MARCO (CÓMO TRABAJAMOS)
+   ========================================================================== */
 
-.method-synthesis-card {
-  background-color: var(--color-white);
-  border: 1px solid var(--color-border);
-  padding: 3.2rem 2.8rem;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  box-shadow: var(--shadow-sm);
-  transition: var(--transition-smooth);
-}
-
-.method-synthesis-card:hover {
-  border-color: var(--color-orange);
-  box-shadow: var(--shadow-md);
-}
-
-.method-synthesis-card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 3px;
-  background-color: var(--color-orange);
-}
-
-.synthesis-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.6rem;
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.15em;
-  color: var(--color-orange);
-  text-transform: uppercase;
-  margin-bottom: 1.2rem;
-}
-
-.synthesis-badge-icon {
-  width: 17px;
-  height: 17px;
-  stroke-width: 1.8px;
-}
-
-.synthesis-title {
-  font-size: 1.85rem;
-  font-weight: 700;
-  color: var(--color-black);
-  margin-bottom: 1.4rem;
-  letter-spacing: 0.02em;
-  line-height: 1.25;
-}
-
-.synthesis-text {
-  font-size: 0.98rem;
-  line-height: 1.75;
-  color: #444444;
-  display: flex;
-  flex-direction: column;
-  gap: 1.1rem;
-  margin-bottom: 2rem;
-  flex-grow: 1;
-}
-
-.synthesis-lead {
-  font-size: 1.05rem;
-  color: var(--color-black);
-  line-height: 1.6;
-}
-
-.synthesis-text strong {
-  color: var(--color-black);
-}
-
-.synthesis-pills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.8rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid var(--color-border);
-}
-
-.synthesis-pill {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 0.82rem;
-  font-weight: 600;
-  letter-spacing: 0.03em;
-  background-color: var(--color-light-bg);
-  color: var(--color-black);
-  padding: 0.45rem 0.9rem;
-  border-radius: 2px;
-  border: 1px solid rgba(0, 0, 0, 0.06);
-}
-
-.synthesis-pill i {
-  width: 15px;
-  height: 15px;
-  color: var(--color-orange);
-}
-
-/* Tarjeta Nube Tipográfica Conceptual (Lúdica pero Profesional) */
-.method-wordcloud-card {
-  background: linear-gradient(145deg, #161616 0%, #0d0d0d 100%);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  padding: 3rem 2.2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
-  position: relative;
-  overflow: hidden;
-  border-radius: 2px;
-}
-
-.method-wordcloud-card::after {
-  content: '';
-  position: absolute;
-  top: -30%;
-  right: -30%;
-  width: 280px;
-  height: 280px;
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(232, 119, 34, 0.12) 0%, transparent 70%);
-  pointer-events: none;
-}
-
-.wordcloud-header {
-  margin-bottom: 1.8rem;
-  position: relative;
-  z-index: 2;
-}
-
-.wordcloud-title {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.2em;
-  color: var(--color-orange);
-  text-transform: uppercase;
-}
-
-.wordcloud-title i {
-  width: 14px;
-  height: 14px;
-}
-
-.method-wordcloud {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 0.85rem 1.25rem;
-  position: relative;
-  z-index: 2;
+.method-manifesto-wrapper {
+  max-width: 1060px;
+  margin: 0 auto 5.5rem auto;
   text-align: center;
-  padding: 0.5rem 0;
-  flex-grow: 1;
+  padding: 1.5rem 1rem 2rem 1rem;
 }
 
-.method-wordcloud:hover .wc-tag {
-  opacity: 0.65;
+.method-manifesto-text {
+  font-family: var(--font-sans);
+  font-size: clamp(1.2rem, 2.3vw, 1.55rem);
+  font-weight: 400;
+  line-height: 2;
+  color: #333333;
+  letter-spacing: 0.01em;
 }
 
-.wc-tag {
+/* Palabras resaltadas en mayúsculas y colores de marca */
+.hl-word {
   font-family: var(--font-logo);
   text-transform: uppercase;
-  letter-spacing: 0.06em;
-  display: inline-block;
-  cursor: default;
-  user-select: none;
-  transition: transform 0.25s ease, opacity 0.25s ease, text-shadow 0.25s ease, color 0.25s ease;
-  line-height: 1.15;
-}
-
-.wc-tag:hover {
-  transform: scale(1.1) translateY(-2px);
-  opacity: 1 !important;
-}
-
-/* Escalas tipográficas de la nube */
-.wc-xl {
-  font-size: 2.15rem;
   font-weight: 700;
-  letter-spacing: 0.08em;
+  display: inline;
+  letter-spacing: 0.04em;
+  transition: opacity 0.2s ease, text-shadow 0.2s ease;
 }
 
-.wc-lg {
-  font-size: 1.55rem;
-  font-weight: 600;
-  letter-spacing: 0.06em;
+.hl-word:hover {
+  opacity: 0.85;
 }
 
-.wc-md {
-  font-size: 1.15rem;
-  font-weight: 500;
+/* Colores de marca */
+.hl-orange {
+  color: var(--color-orange);
+}
+
+.hl-dark {
+  color: var(--color-black);
+}
+
+.hl-grey {
+  color: var(--color-grey);
+}
+
+/* Tamaños de letra diferenciados */
+.hl-lg {
+  font-size: 1.2em;
   letter-spacing: 0.05em;
 }
 
-.wc-sm {
-  font-size: 0.88rem;
-  font-weight: 400;
+.hl-xl {
+  font-size: 1.38em;
+  letter-spacing: 0.06em;
+}
+
+/* Píldoras inferiores de síntesis */
+.method-manifesto-pills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 3.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.manifesto-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 600;
   letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-black);
+  background-color: var(--color-light-bg);
+  padding: 0.55rem 1.15rem;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
-/* Colores de marca en la nube */
-.wc-orange {
+.manifesto-pill i {
+  width: 15px;
+  height: 15px;
   color: var(--color-orange);
-}
-
-.wc-orange:hover {
-  text-shadow: 0 0 20px rgba(232, 119, 34, 0.6);
-}
-
-.wc-white {
-  color: var(--color-white);
-}
-
-.wc-white:hover {
-  text-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
-}
-
-.wc-grey {
-  color: var(--color-grey-light);
-}
-
-.wc-grey:hover {
-  color: var(--color-white);
-  text-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
 }
 
 /* Banner de Cita / Manifiesto */
@@ -1879,11 +1726,6 @@ section {
     gap: 4rem;
   }
 
-  .method-unified-container {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-  }
-
   .system-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 1.8rem;
@@ -2019,42 +1861,28 @@ section {
     grid-template-columns: 1fr;
   }
 
-  .method-unified-container {
-    grid-template-columns: 1fr;
-    gap: 1.8rem;
-    margin-bottom: 3rem;
+  .method-manifesto-wrapper {
+    margin-bottom: 3.5rem;
+    padding: 0.5rem 0 1.5rem 0;
   }
 
-  .method-synthesis-card, .system-card {
+  .method-manifesto-text {
+    line-height: 1.85;
+  }
+
+  .method-manifesto-pills {
+    margin-top: 2.2rem;
+    padding-top: 1.5rem;
+    gap: 0.6rem;
+  }
+
+  .manifesto-pill {
+    font-size: 0.74rem;
+    padding: 0.45rem 0.85rem;
+  }
+
+  .system-card {
     padding: 2.2rem 1.5rem;
-  }
-
-  .synthesis-title {
-    font-size: clamp(1.4rem, 5vw, 1.65rem);
-  }
-
-  .method-wordcloud-card {
-    padding: 2.2rem 1.5rem;
-  }
-
-  .method-wordcloud {
-    gap: 0.65rem 0.95rem;
-  }
-
-  .wc-xl {
-    font-size: 1.6rem;
-  }
-
-  .wc-lg {
-    font-size: 1.25rem;
-  }
-
-  .wc-md {
-    font-size: 0.98rem;
-  }
-
-  .wc-sm {
-    font-size: 0.8rem;
   }
 
   .method-quote-banner {
