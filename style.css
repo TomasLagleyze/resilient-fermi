@@ -749,6 +749,22 @@ section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
+  align-items: stretch;
+}
+
+@supports (grid-template-rows: subgrid) {
+  .system-grid {
+    grid-template-rows: auto auto;
+  }
+
+  .system-card {
+    grid-template-rows: subgrid;
+    grid-row: span 2;
+  }
+
+  .system-features-list {
+    margin-top: 0 !important;
+  }
 }
 
 .system-card {
@@ -759,6 +775,12 @@ section {
   flex-direction: column;
   transition: var(--transition-smooth);
   position: relative;
+}
+
+.system-card-top {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .system-card:hover {
@@ -820,6 +842,7 @@ section {
   color: #555555;
   line-height: 1.65;
   margin-bottom: 2rem;
+  flex-grow: 1;
 }
 
 .system-card-desc strong {
@@ -1677,7 +1700,14 @@ section {
 
   .system-grid {
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
     gap: 1.8rem;
+  }
+
+  .system-card {
+    display: flex;
+    flex-direction: column;
+    grid-row: auto;
   }
   
   .hero-title {
@@ -1836,6 +1866,9 @@ section {
 
   .system-card {
     padding: 2.2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    grid-row: auto;
   }
 
   .system-title {
@@ -1844,6 +1877,7 @@ section {
 
   .system-grid {
     grid-template-columns: 1fr;
+    grid-template-rows: auto;
     gap: 1.5rem;
   }
   
